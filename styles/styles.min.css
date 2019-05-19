@@ -1,0 +1,4483 @@
+@font-face {
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit/Larsseit.eot");
+    src: url("../fonts/Larsseit/Larsseit.woff") format("woff")
+}
+
+@font-face {
+    font-family: "Larsseit-Bold";
+    src: url("../fonts/Larsseit/Larsseit-Bold.eot");
+    src: url("../fonts/Larsseit/Larsseit-Bold.woff") format("woff")
+}
+
+@font-face {
+    font-family: "Larsseit-Light";
+    src: url("../fonts/Larsseit/Larsseit-Light.eot");
+    src: url("../fonts/Larsseit/Larsseit-Light.woff") format("woff")
+}
+
+@font-face {
+    font-family: "Larsseit-Medium";
+    src: url("../fonts/Larsseit/Larsseit-Medium.eot");
+    src: url("../fonts/Larsseit/Larsseit-Medium.woff") format("woff")
+}
+
+@font-face {
+    font-family: "Vaud";
+    src: url("../fonts/vaud/Vaud.otf");
+    src: url("../fonts/vaud/Vaud.otf") format("woff")
+}
+
+@font-face {
+    font-family: "Vaud Light";
+    src: url("../fonts/vaud/Vaud Light.otf");
+    src: url("../fonts/vaud/Vaud Light.woff") format("woff")
+}
+
+@font-face {
+    font-family: "Vaud Medium";
+    src: url("../fonts/vaud/Vaud Medium.otf");
+    src: url("../fonts/vaud/Vaud Medium.woff") format("woff")
+}
+
+@font-face {
+    font-family: "Vaud SemiBold";
+    src: url("../fonts/vaud/Vaud SemiBold.otf");
+    src: url("../fonts/vaud/Vaud SemiBold.woff") format("woff")
+}
+
+@font-face {
+    font-family: 'MarkPro';
+    src: url('../fonts/Mark/MarkPro.woff') format('woff'),
+        url('../fonts/Mark/MarkPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MarkPro';
+    src: url('../fonts/Mark/MarkPro-Medium.woff') format('woff'),
+        url('../fonts/Mark/MarkPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MarkPro-Book';
+    src: url('../fonts/Mark/MarkPro-Book.woff') format('woff'),
+        url('../fonts/Mark/MarkPro-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MarkPro';
+    src: url('../fonts/Mark/MarkPro-Bold.woff') format('woff'),
+        url('../fonts/Mark/MarkPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MarkPro';
+    src: url('../fonts/Mark/MarkPro-Light.woff') format('woff'),
+        url('../fonts/Mark/MarkPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.lv {
+    display: block !important
+}
+
+.lgrid {
+    display: grid !important
+}
+
+.lflex {
+    display: flex !important
+}
+
+.lnone {
+    display: none
+}
+
+.sv {
+    display: none !important
+}
+
+.sgrid {
+    display: none !important
+}
+
+.sflex {
+    display: none !important
+}
+
+.xsv {
+    display: none !important
+}
+
+.xsgrid {
+    display: none !important
+}
+
+.xsflex {
+    display: none !important
+}
+
+.lxvflex {
+    display: none !important
+}
+
+.none {
+    display: none !important
+}
+
+@media (min-width: 36.9em) and (max-width: 69.9em) {
+    .lv {
+        display: none !important
+    }
+
+    .lgrid {
+        display: none !important
+    }
+
+    .lflex {
+        display: none !important
+    }
+
+    .sv {
+        display: block !important
+    }
+
+    .sgrid {
+        display: grid !important
+    }
+
+    .sflex {
+        display: flex !important
+    }
+
+    .snone {
+        display: none !important
+    }
+
+    .lxvflex {
+        display: flex !important
+    }
+}
+
+@media (max-width: 830px) {
+    .xsv {
+        display: block !important
+    }
+
+    .xsnone {
+        display: none !important;
+    }
+}
+
+@media (max-width: 36.89em) {
+    .lv {
+        display: none !important
+    }
+
+    .lgrid {
+        display: none !important
+    }
+
+    .lflex {
+        display: none !important
+    }
+
+    .sv {
+        display: none !important
+    }
+
+    .sgrid {
+        display: none !important
+    }
+
+    .sflex {
+        display: none !important
+    }
+
+    .xsv {
+        display: block !important
+    }
+
+    .xsgrid {
+        display: grid !important
+    }
+
+    .xsflex {
+        display: flex !important
+    }
+
+    .xsnone {
+        display: none !important
+    }
+
+    .lxvflex {
+        display: flex !important
+    }
+}
+
+.btn-fill-md {
+    font-size: 16px;
+    border-radius: 25px;
+    background: #0744DD;
+    transition: color 0.25s ease;
+    color: #FFFFFF;
+    box-shadow: 2px 4px 6px 2px rgba(7, 68, 221, 0.25), 2px 2px 3px 0 rgba(7, 68, 221, 0.25);
+    padding: 5px 20px;
+    cursor: pointer
+}
+
+.btn-fill-md:hover {
+    background-image: linear-gradient(7.69deg, #0080ff 0%, #0744DD 100%);
+}
+
+a.btn-fill-md {
+    color: #FFFFFF !important;
+    font-family: MarkPro;
+}
+
+a.btn-outline-md {
+    border: 1px solid #0744DD;
+    color: #0744DD;
+    border-radius: 25px;
+    /* width: 168px; */
+    /* margin: 0 auto; */
+    /* height: 38px; */
+    font-family: MarkPro;
+    letter-spacing: -0.2px;
+    line-height: 38px;
+    /* display: block; */
+    /* margin-top: 2.25em; */
+    text-decoration: none;
+    padding: 10px 24px;
+}
+
+a.btn-outline-md:hover {
+    background-color: #0744DD;
+    color: white;
+
+}
+
+a.btn-fill-md:not(.navButton) {
+    padding-top: .5em;
+    padding-bottom: .5em
+}
+
+a.btn-fill-md.navButton {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-family: MarkPro;
+    font-size: 15px;
+}
+
+a.btn-fill-md:hover {
+    text-decoration: none
+}
+
+.press-kit-highlight {
+    color: #757578;
+    font-family: Larsseit;
+    font-size: 14px;
+}
+
+.btn-fill-mdOutline {
+    border-radius: 3px;
+    background: none;
+    color: #0744DD !important;
+    border: 1px solid #0744DD;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-fill-mdOutline:hover {
+    background: #0744DD;
+    color: #FFFFFF !important;
+    text-decoration: none
+}
+
+.largeButton {
+    padding: 15px 40px !important
+}
+
+.mobileButton {
+    margin-top: 12px;
+    width: 150px;
+    font-size: 16px !important;
+    margin-left: 25px;
+}
+
+.pssCard {
+    background: #FFFFFF;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    border: 1px solid #E6E9EF;
+    border-radius: 2px;
+    transition: 0.3s
+}
+
+.pssCard:hover {
+
+    box-shadow: 0 2px 50px 0 rgba(12, 16, 20, 0.1);
+}
+
+.horizontal-rule-short {
+    display: inline-block;
+    background: #EEF4FA;
+    height: 1.5px
+}
+
+ul.glooList {
+    padding: 0
+}
+
+ul.glooList li {
+    list-style: none;
+    font-size: .9em;
+    line-height: 2em
+}
+
+ul.glooList li::before {
+    content: '';
+    display: inline-block;
+    height: 1.5em;
+    width: 1.5em;
+    background-size: 1.5em;
+    background-image: url("../images/list-icon-check.svg");
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    background-position: center center;
+    vertical-align: middle
+}
+
+.emailLink {
+    color: #0744DD
+}
+
+.emailLink:hover {
+    color: #0744DD
+}
+
+.formError {
+    margin-bottom: 20px;
+    display: none;
+    color: red;
+    font-size: 14px
+}
+
+.showElement {
+    display: inline-block !important
+}
+
+.invalidField {
+    margin-bottom: 0 !important
+}
+
+.invalidField input,
+.invalidField textarea {
+    border-color: red !important
+}
+
+.invalidField .field-placeholder {
+    color: red !important
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: calc(100% - 12em);
+    z-index: 999
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.99);
+    overflow-x: hidden;
+    transition: 0.5s;
+    background-color: #fff;
+    max-width: 300px;
+    order: 4;
+    overflow: hidden;
+    padding: 50px 0 10px;
+    position: absolute;
+    z-index: 989;
+    right: 0;
+    top: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+}
+
+.nav-display {
+    width: 100%;
+    transition: ease-in-out 0.5s;
+
+}
+
+.overlay li {
+    list-style: none
+}
+
+.overlay li.dropDown {
+    cursor: pointer
+}
+
+.overlay li.dropDown a {
+    color: #444971
+}
+
+.overlay li.dropDown a:hover,
+.overlay li.dropDown a:focus {
+    color: #444971
+}
+
+.overlay li.dropDown .collapseControl a {
+    /* display: inline-block */
+}
+
+.overlay li.dropDown .collapseControl a::after {
+    content: '';
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    background-size: 12px;
+    background-image: url(../images/icons/chevron-down-blue.svg);
+    background-repeat: no-repeat;
+    /* margin-left: -5px; */
+    background-position: center center;
+    vertical-align: middle;
+}
+
+.overlay li.dropDown .collapseControl a:hover::after {
+    background-image: url("../images/icons/chevron-down-green.svg")
+}
+
+.overlay li.dropDown .collapseControl a:not(.collapsed)::after {
+    background-image: url("../images/icons/chevron-up-blue.svg")
+}
+
+.overlay li.dropDown .collapseControl a:not(.collapsed):hover::after {
+    background-image: url("../images/icons/chevron-up-green.svg")
+}
+
+.overlay li.dropDown .dropDownContent a {
+    font-size: 16px
+}
+
+.overlay a {
+    padding: 8px 0;
+    text-decoration: none;
+    font-size: 20px;
+    color: #444971;
+    display: block;
+    transition: 0.3s;
+    font-family: Larsseit;
+    text-align: left;
+    padding: 10px 30px 10px;
+}
+
+.overlay a:hover:not(.closebtn):not(.btn-fill-md),
+.overlay a:focus:not(.closebtn):not(.btn-fill-md) {
+    color: #0744DD
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px
+}
+
+.overlay-content {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 0
+}
+
+h2.sectionTitle {
+    color: #1B314B;
+    font-family: MarkPro;
+    font-size: 2.25em;
+    font-weight: 700;
+    letter-spacing: -0.15px;
+}
+
+p {
+    font-family: MarkPro;
+}
+
+.img-responsive {
+    max-width: 100%;
+}
+
+h3 {
+    color: #1B314B;
+    font-family: MarkPro;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.15px;
+    line-height: 43px;
+}
+
+h4 {
+    color: #1B314B;
+    font-family: MarkPro;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    line-height: 30px;
+}
+
+h5 {
+    color: #1B314B;
+    font-family: MarkPro;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.1px;
+    line-height: 29px;
+}
+
+h6 {
+    color: #3C4043;
+    font-family: MarkPro;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.08px;
+    line-height: 30px;
+}
+
+.contact-info hr {
+    margin: 3rem 0rem;
+}
+
+.block-link {
+    color: #0744DD;
+    font-family: MarkPro;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.block-link-sm {
+    color: #0744DD;
+    font-family: MarkPro;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -0.06px;
+    line-height: 18px;
+}
+
+body {
+    display: grid;
+    color: #444971;
+    font-family: "Vaud", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 16px
+}
+
+body>* {
+    padding-left: 6em;
+    padding-right: 6em
+}
+
+body a {
+    color: #0744DD
+}
+
+body header {
+    background: #F8FAFE;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    padding-bottom: 6rem;
+}
+
+body header.compact-header {
+    padding-bottom: 0rem;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+body header.header-grey {
+    background: #F6F7F9 url("../images/grey-stripes.svg") no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    padding-bottom: 6rem
+}
+
+body header.header-grey-straight {
+    background: #F6F7F9 url("../images/stripes-grey-straight.svg") no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    padding-bottom: 6rem
+}
+
+body header.single {
+    background-color: #FBFCFF;
+    padding-top: 2em
+}
+
+body header.single.careersHero {
+    padding-bottom: 0 !important
+}
+
+body header.pricingHead {
+    /* height: 20em;
+    padding-bottom: 25em */
+}
+
+body header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+body header nav .brand {
+    width: 20%
+}
+
+body header nav .brand a img {
+    height: 52px
+}
+
+body header nav .links {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: "Larsseit"
+}
+
+body header nav .links>* {
+    display: flex;
+    align-items: center
+}
+
+body header nav .links>*:not(:last-child) {
+    margin-right: 2rem
+}
+
+body header nav .links ul {
+    padding: 0;
+    margin: 0
+}
+
+body header nav .links ul li {
+    display: inline-block
+}
+
+body header nav .links ul li:hover>a {
+    text-decoration: none;
+    color: #0744DD
+}
+
+body header nav .links ul li.activeLink>a {
+    color: #0744DD
+}
+
+body header nav .links ul li:not(:last-child) {
+    margin-right: 3em
+}
+
+body header nav .links ul li.dropdown .dropdown-menu {
+    box-shadow: 0px 8px 16px 0px #0744dd38;
+    border-radius: 5px;
+    border: 0
+}
+
+body header nav .links ul li.dropdown .dropdown-menu>* {
+    padding: 1.5em;
+    padding-right: 3em;
+    cursor: pointer
+}
+
+body header nav .links ul li.dropdown .dropdown-menu>*:active,
+body header nav .links ul li.dropdown .dropdown-menu>*:hover {
+    background: #0744DD
+}
+
+body header nav .links ul li.dropdown .dropdown-menu>*:active a,
+body header nav .links ul li.dropdown .dropdown-menu>*:hover a {
+    color: #FFFFFF
+}
+
+body header nav .links ul li.dropdown .dropdown-menu>*:last-child {
+    padding-top: .75em
+}
+
+body header nav .links ul li.dropdown .dropdown-menu>*:not(:last-child) {
+    margin-right: 0;
+    padding-bottom: .75em;
+    border-bottom: 2px solid #F6F9FC
+}
+
+body header nav .links ul li.dropdown .dropdown-menu>* p {
+    margin-bottom: 0
+}
+
+body header nav .links ul li.dropdown .dropdown-menu>* p:first-child {
+    font-size: .7em
+}
+
+body header nav .links ul li.dropdown .dropdown-menu>* p:last-child {
+    font-size: 1.25em
+}
+
+body header nav .links ul li a {
+    color: #222D4F;
+    font-family: MarkPro;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+body header .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    margin-top: 6em;
+    max-width: 1320px;
+}
+
+body header.compact-header .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    margin-top: 0em;
+    max-width: 1320px;
+}
+
+body header .hero.single {
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    align-items: center;
+    justify-content: center
+}
+
+.hero-margin-none {
+    margin-top: 0em !important
+}
+
+.hero-margin-none .content p {
+    color: #53627C;
+}
+
+body header .hero.single .content {
+    width: 60%;
+    text-align: center;
+    background: url("../images/dotsBackground.png") center center no-repeat;
+    background-size: cover
+}
+
+body header .hero.single .content h1 {
+    color: #444971;
+    font-family: "Larsseit-Bold";
+    font-size: 3em;
+    background-size: auto;
+}
+
+body header .hero.single .content p {
+    font-size: 1.25em;
+}
+
+.grey-2 {
+    background: #f2f7f9 !important;
+}
+
+.pt2em {
+    padding-top: 2em !important;
+}
+
+.pss-blue {
+    color: #0744DD;
+}
+
+body header .hero.single .content a {
+    font-size: 1.35em;
+    color: #0744DD
+}
+
+body header .hero>* {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+body header .hero .left .title p {
+    font-family: "Larsseit";
+    font-size: 0.875em;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: .25em .75em;
+    color: #53627C;
+    background: rgba(79, 146, 33, 0.200000003);
+    border-radius: .25em;
+}
+
+body header .hero .left h1 {
+    font-size: 3em;
+    color: #1B314B;
+    font-family: MarkPro;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    line-height: 56px;
+}
+
+body header .hero .left>p:last-of-type {
+    color: #697788;
+    font-family: MarkPro;
+    font-size: 1.125em;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+
+body header .hero .left .links {
+    margin-top: 1em;
+    margin-bottom: 6em;
+}
+
+.text-caption {
+    color: #3174E2;
+    font-family: MarkPro;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.08px;
+    margin-top: 25px;
+}
+
+body header .hero .left .links>*:first-child {
+    margin-right: 1.5em
+}
+
+body header .hero .left .links a {
+    color: #0744DD
+}
+
+body header .hero .left .brands.largeEnterprises .content {
+    align-items: center
+}
+
+body header .hero .left .brands.largeEnterprises .content .brand.britishTobacco img {
+    height: 45px
+}
+
+body header .hero .left .brands .content .brand.britishTobacco img {
+    height: 45px;
+    margin-top: -15px;
+}
+
+body header .hero .left .brands .heading {
+    text-transform: uppercase;
+    color: #444971;
+    margin-bottom: .9em;
+    font-family: "Larsseit-Medium", sans-serif;
+    font-size: 1em;
+}
+
+body header .hero .left .brands .content {
+    display: flex;
+    flex-direction: row
+}
+
+body header .hero .left .brands .content .brand:not(:last-child) {
+    margin-right: .9em
+}
+
+body header .hero .left .brands .content .brand img {
+    height: 1.5em
+}
+
+body header .hero .right img {
+    max-width: 90%
+}
+
+body .description {
+    display: grid;
+    background: #F6F9FC;
+    padding-top: 4em;
+    padding-bottom: 8em
+}
+
+body .description .top {
+    margin-bottom: 1.25em
+}
+
+body .description .top h2 {
+    color: #444971;
+    font-size: 2.375em;
+    font-family: "Larsseit-Medium"
+}
+
+body .description .top p {
+    font-size: 1.5em
+}
+
+body .description .bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 3em
+}
+
+body .description .bottom .left img {
+    width: 100%
+}
+
+body .description .bottom .right {
+    font-size: 1.25em
+}
+
+body .description .bottom .right p:first-child {
+    color: #444971;
+    font-family: "Larsseit-Medium", sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.bordered-tabs {
+    border-bottom: 1px solid #dee2e6;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+ul.bordered-tabs li a {
+    color: #454F5B;
+    font-family: MarkPro;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.21px;
+    line-height: 19px;
+}
+
+ul.bordered-tabs li a.nav-link.active {
+    background: transparent;
+    border-color: transparent;
+    border-bottom: 3px solid #0744DD;
+    color: #0744DD;
+}
+
+.informational {
+    background-image: url(../images/info-div-bg.png);
+    height: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 6.5em 3em;
+    margin-bottom: 7.5em;
+}
+
+.got-questions-bg {
+    background-image: url(../images/got-questions-bg.svg);
+    height: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 6.5em 3em;
+    margin-bottom: 7.5em;
+}
+
+.contact-us-bg {
+    background-image: url(../images/contact-support-hero-illustration.svg);
+    height: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 6.5em 3em;
+    margin-bottom: 7.5em;
+}
+
+.informational .block-link {
+    margin-top: 0.75em;
+}
+
+body .features {
+    display: grid;
+    background: #FBFCFF;
+    padding: 8em 6em
+}
+
+body .features .heading {
+    color: #444971;
+    margin-bottom: 1em;
+    font-family: "Larsseit-Medium", system-ui;
+    font-size: 2.375rem;
+}
+
+body .features .body {
+    margin-bottom: 3em
+}
+
+body .features .body>*:not(:last-child) {
+    margin-bottom: 120px
+}
+
+body .features .body>*:nth-child(even)>.image {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+}
+
+body .features .body .feature {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3em;
+    align-items: center
+}
+
+body .features .body .feature .content .image {
+    margin-bottom: 1em
+}
+
+body .features .body .feature .content h3 {
+    color: #444971;
+    font-family: "Larsseit-Medium";
+    font-size: 2em
+}
+
+body .features .body .feature .content p {
+    color: #48446F;
+    font-size: 1.25em;
+    line-height: 1.5
+}
+
+body .features .body .feature>.image img {
+    width: 60%;
+    margin: 0 auto;
+}
+
+body .features .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+body .features .bottom a {
+    padding: 10px 60px
+}
+
+body .testimonial {
+    background: #F6F8FD;
+    padding: 8em 6em;
+    display: grid;
+    font-size: 1em;
+    line-height: 1.375em;
+}
+
+body .testimonial .heading {
+    color: #444971;
+    margin-bottom: 1em;
+    font-family: "Larsseit-Medium";
+    font-size: 2.375em
+}
+
+body .testimonial .testimonial-body {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2em
+}
+
+body .testimonial .testimonial-body>*:not(:last-child) {
+    margin-right: 1.5em
+}
+
+body .testimonial .testimonial-body .testimony {
+    padding: 3em 2em;
+    max-width: 352px;
+    padding-bottom: 2em;
+}
+
+body .testimonial .testimonial-body .testimony>*:not(:last-child) {
+    margin-bottom: 1.25em
+}
+
+body .testimonial .testimonial-body .testimony .brandLogo img {
+    max-height: 1.5em
+}
+
+body .testimonial .testimonial-body .testimony .content p {
+    min-height: 120px;
+    font-size: 16px;
+    color: #444971;
+    line-height: 22px;
+}
+
+.batn-logo-fix {
+    min-height: 50px;
+    margin-top: -20px;
+}
+
+body .testimonial .testimonial-body .testimony .bottom {
+    display: flex;
+    align-items: center
+}
+
+body .testimonial .testimonial-body .testimony .bottom .image {
+    height: 3.5em;
+    width: 3.5em;
+    margin-right: 1em;
+    border-radius: 50%
+}
+
+body .testimonial .testimonial-body .testimony .bottom .image.tobi {
+    background: url("../images/adetayo.png") no-repeat;
+    background-size: contain
+}
+
+body .testimonial .testimonial-body .testimony .bottom .image.onah {
+    background: url("../images/onah.png") no-repeat;
+    background-size: contain
+}
+
+body .testimonial .testimonial-body .testimony .bottom .profileDetail p {
+    margin-bottom: 0
+}
+
+body .testimonial .testimonial-body .testimony .bottom .profileDetail p:first-child {
+    font-family: "Larsseit", sans-serif;
+    font-size: 1.125em;
+}
+
+body .testimonial .testimonial-body .testimony .bottom .profileDetail p:last-child {
+    color: #53627C;
+    font-size: 0.8em;
+    line-height: 1.2;
+    padding-top: 5px;
+}
+
+body .testimonial .controls {
+    display: grid;
+    grid-template-columns: repeat(5, 5em);
+    grid-gap: .5em
+}
+
+body .testimonial .controls .control {
+    height: .5em;
+    background: #CAD4D9
+}
+
+body .testimonial .controls .control.active {
+    background: #277D3F
+}
+
+body .brandsSection {
+    padding: 6em;
+    padding-top: 0;
+    background: #F6F8FD;
+    /* background-image: linear-gradient(180deg, #F6F8FD 0%, #fff 100%); */
+    background-color: #F6F8FD;
+    display: flex;
+    flex-direction: column
+}
+
+body .brandsSection>*:not(:last-child) {
+    margin-bottom: 1em
+}
+
+body .brandsSection .hr-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6em
+}
+
+body .brandsSection .horizontal-rule-short {
+    width: 80%
+}
+
+body .brandsSection .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+body .brandsSection .heading p {
+    display: flex;
+    flex-direction: column;
+    text-align: center
+}
+
+body .brandsSection .heading p span:first-child {
+    text-transform: uppercase;
+    color: #444971;
+    font-family: "Larsseit-Medium";
+    font-size: 1.25em
+}
+
+body .brandsSection .heading p span:last-child {
+    font-size: 1.125em;
+    margin-top: 8px;
+}
+
+body .brandsSection .brandList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4em
+}
+
+body .brandsSection .brandList>*:not(:last-child) {
+    margin-right: 4em
+}
+
+body .brandsSection .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+body .brandsSection .bottom .links {
+    margin-bottom: 1em
+}
+
+body .brandsSection .bottom .links>*:first-child {
+    margin-right: 2em
+}
+
+body .brandsSection .bottom .links a {
+    color: #0744DD;
+    font-family: "Larsseit-Medium"
+}
+
+body .brandsSection .bottom .links a.btn-fill-md {
+    padding: 10px 60px
+}
+
+body .brandsSection .bottom p:last-child {
+    color: #53627C;
+    font-size: 0.875em;
+    padding-top: 1em;
+}
+
+body .afterBS {
+    background: #fbfcff;
+    padding-bottom: 6em;
+}
+
+body .certifications {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 6em;
+    background: #FBFCFF;
+}
+
+body .certifications.storesCertifcation,
+body .certifications.careersCertifcation,
+body .certifications.pricingCertifcation,
+body .certifications.presskitCertifcation {
+    padding-top: 6em
+}
+
+body .certifications .heading {
+    text-align: center;
+    font-family: "Larsseit-Medium", sans-serif;
+    font-size: 2.375em;
+    color: #444971;
+    margin-bottom: 2em
+}
+
+body .certifications .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+body .certifications .content>*:not(:last-child) {
+    margin-right: 3em
+}
+
+body .certifications .content .certification {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+body .certifications .content .certification .certLogo {
+    height: 5em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end
+}
+
+body .certifications .content .certification .certLogo img {
+    max-height: 5em;
+    max-width: 10em;
+    margin-bottom: 1.5em
+}
+
+body .featured {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6em;
+    padding-top: 2em;
+    padding: 4em 0em;
+    background-color: #FBFCFF;
+    border-top: 2px solid #EEF4FA;
+    border-bottom: 2px solid #EEF4FA;
+}
+
+body .featured.presskitFeatured {
+    padding-top: 6em;
+    border: none;
+}
+
+.image img {
+    max-width: 100%;
+}
+
+body .featured>*:first-child {
+    margin-right: 3em
+}
+
+body .featured .heading {
+    font-family: "Larsseit-Medium";
+    text-transform: uppercase;
+    color: #586F7F
+}
+
+body .featured .brandList {
+    display: flex;
+    flex-direction: row
+}
+
+body .featured .brandList>*:not(:last-child) {
+    margin-right: 3em
+}
+
+body .featured .brandList .brand img {
+    max-width: 10em
+}
+
+body footer {
+    background: #F6F8FD;
+    color: #53627C;
+    padding: 4.5em 6em;
+    display: grid;
+    grid-template-columns: 1.5fr repeat(4, 1fr);
+    grid-gap: 2em
+}
+
+body footer h6 {
+    margin-bottom: 1em;
+    color: #1B314B;
+    font-family: MarkPro;
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+body footer ul {
+    padding: 0
+}
+
+body footer ul li {
+    list-style-type: none
+}
+
+body footer .about img {
+    margin-bottom: 1em
+}
+
+body footer .about p:first-of-type {
+    font-size: 14px
+}
+
+body footer .about p:nth-of-type(2) {
+    font-size: 14px;
+    color: #7689A2;
+}
+
+body footer .links ul li {
+    margin-bottom: .8em;
+    font-size: 1rem
+}
+
+body footer .links ul li a {
+    color: #697788;
+    font-family: MarkPro;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+body footer .contact-us p {
+    font-size: 1em
+}
+
+body footer .contact-us p.telephone {
+    text-transform: uppercase
+}
+
+body footer .contact-us .social-links {
+    display: flex;
+    flex-direction: row
+}
+
+body footer .contact-us .social-links>*:not(:last-child) {
+    margin-right: 2em
+}
+
+body footer .contact-us .social-links .social-icons {
+    width: 20px;
+    height: 20px;
+    background: #212121;
+    cursor: pointer
+}
+
+body footer .contact-us .social-links .social-icons.twitter {
+    background: url("../images/icons/twitter.svg") center bottom no-repeat
+}
+
+body footer .contact-us .social-links .social-icons.linkedin {
+    background: url("../images/icons/linkedin.svg") center bottom no-repeat
+}
+
+body footer .contact-us .social-links .social-icons.medium {
+    background: url("../images/icons/medium.svg") center bottom no-repeat
+}
+
+body .description-mediumEnterprise {
+    background: #f3f9fc;
+    padding-top: 0em;
+    padding-bottom: 8em
+}
+
+body .description-mediumEnterprise .top {
+    text-align: center;
+    margin-bottom: 2em
+}
+
+body .description-mediumEnterprise .top img {
+    width: 80px;
+    margin-bottom: 30px
+}
+
+body .description-mediumEnterprise .top h2 {
+    font-family: "Larsseit-Medium";
+    font-size: 2.375em;
+    color: #444971
+}
+
+body .description-mediumEnterprise .bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    align-items: center
+}
+
+body .description-mediumEnterprise .bottom .left h3 {
+    font-family: "Larsseit-Bold";
+    font-size: 1.5em;
+    color: #444971;
+    margin-bottom: 1em
+}
+
+body .description-mediumEnterprise .bottom .left p {
+    font-size: 1.25em
+}
+
+body .description-mediumEnterprise .bottom .left p.p18 {
+    font-size: 18px;
+}
+
+body .description-mediumEnterprise .bottom .right img {
+    height: 25em
+}
+
+body .features-mediumEnterprise {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3em;
+    background: #FBFCFF;
+    padding: 8em 6em
+}
+
+body .features-mediumEnterprise .feature img {
+    margin-bottom: 1em
+}
+
+body .features-mediumEnterprise .feature h3 {
+    color: #444971;
+    font-size: 1.5em;
+    font-family: "Larsseit-Medium", sans-serif;
+    margin-bottom: 1rem
+}
+
+body .features-mediumEnterprise .feature p {
+    margin-bottom: 0;
+    font-size: 1.125em;
+    color: #48446F;
+}
+
+body .description-largeEnterprise {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5em;
+    padding: 8em 6em;
+    background: #F6F9FC
+}
+
+body .description-largeEnterprise>* h2 {
+    font-family: "Larsseit-Medium", sans-serif;
+    font-size: 2.375em;
+    color: #444971
+}
+
+body .description-largeEnterprise>* p {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    font-family: "Larsseit-Light", sans-serif;
+    margin-bottom: 1.75em;
+}
+
+body .description-largeEnterprise>* ul {
+    padding: 0
+}
+
+body .description-largeEnterprise>* ul li {
+    font-size: 1.125em;
+    color: #48446F;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 7fr
+}
+
+body .description-largeEnterprise>* ul li:not(:last-child) {
+    margin-bottom: 1em
+}
+
+body .description-largeEnterprise>* ul li span:first-child {
+    height: 1.5em;
+    width: 1.5em;
+    background-size: 1.5em;
+    background-image: url("../images/gg1.svg");
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    background-position: center center;
+    vertical-align: middle
+}
+
+body .description-largeEnterprise>*:first-child {
+    padding-right: 5em;
+    border-right: 1px solid #E6EBF1
+}
+
+body .erpIntegration {
+    background: #FBFCFF;
+    padding: 6em
+}
+
+body .erpIntegration .top {
+    width: 65%
+}
+
+body .erpIntegration .top h2 {
+    font-family: "Larsseit-Medium";
+    color: #444971;
+    font-size: 2.5em
+}
+
+body .erpIntegration .top p {
+    font-size: 1.5em;
+    font-family: "Larsseit-Light", sans-serif;
+}
+
+body .erpIntegration .brands {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end
+}
+
+body .erpIntegration .brands>*:not(:last-child) {
+    margin-right: 3em
+}
+
+body .procurementSimplified {
+    padding: 6em;
+    background: #F6F9FC;
+}
+
+body .procurementSimplified .top {
+    margin-bottom: 2em
+}
+
+body .procurementSimplified .top h2 {
+    font-family: "Larsseit-Medium";
+    color: #444971;
+    font-size: 2.375em
+}
+
+body .procurementSimplified .bottom {
+    display: grid;
+    grid-gap: 3em;
+    grid-template-columns: 1fr 2fr
+}
+
+body .procurementSimplified .bottom .left ul {
+    padding: 0
+}
+
+body .procurementSimplified .bottom .left ul li {
+    list-style: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+body .procurementSimplified .bottom .left ul li.content {
+    border-bottom: 1px solid #E6EBF1
+}
+
+body .procurementSimplified .bottom .left ul li.content:not(:last-child) {
+    margin-bottom: 1.5em
+}
+
+body .procurementSimplified .bottom .left ul li.content h3 {
+    font-family: "Larsseit-Medium";
+    color: #444971;
+    font-size: 1.5em
+}
+
+body .procurementSimplified .bottom .left ul li.content:hover h3,
+body .procurementSimplified .bottom .left ul li.content.activeSection h3 {
+    color: #0744DD
+}
+
+body .procurementSimplified .bottom .left ul li.content:hover h3::before,
+body .procurementSimplified .bottom .left ul li.content.activeSection h3::before {
+    content: url(../images/icons/right-chevron.svg);
+    display: inline-block;
+    margin-right: 5px
+}
+
+section.procurementSimplified .bottom .right {
+    -webkit-perspective: 1500px;
+    perspective: 1500px;
+}
+
+.floated-image {
+    -webkit-transform: none;
+    transform: none;
+    position: relative;
+    -webkit-transform: rotate3d(16, 120, 0, -16deg) rotateZ(-1deg);
+    transform: rotate3d(16, 120, 0, -16deg) rotateZ(-1deg);
+    -webkit-box-shadow: -27.1px 62.5px 125px -25px rgba(50, 50, 93, .5), -16.2px 37.5px 75px -37.5px rgba(0, 0, 0, .6);
+    box-shadow: -27.1px 62.5px 125px -25px rgba(50, 50, 93, .5), -16.2px 37.5px 75px -37.5px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    background: #e9f8f0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+body .gallery {
+    padding: 0;
+    background: #FFFFFF
+}
+
+body .gallery>* {
+    display: grid;
+    grid-gap: .4em;
+    margin-left: .4em;
+    margin-right: .4em
+}
+
+body .gallery>*>* {
+    height: 17em
+}
+
+body .gallery .top {
+    grid-template-columns: 2fr 1.5fr 2fr;
+    margin-top: .4em;
+    margin-bottom: .4em
+}
+
+body .gallery .top>*:first-child {
+    background: url("../images/team/team-1.jpg") center no-repeat;
+    background-size: cover
+}
+
+body .gallery .top>*:nth-child(2) {
+    background: url("../images/team/team-2.jpg") center no-repeat;
+    background-size: cover
+}
+
+body .gallery .top>*:nth-child(3) {
+    background: url("../images/team/team-3.jpg") center no-repeat;
+    background-size: cover
+}
+
+body .gallery .top>*:nth-child(4) {
+    background: url("../images/team/team-4.jpg") center no-repeat;
+    background-size: cover
+}
+
+body .gallery .top>*:nth-child(5) {
+    background: url("../images/team/team-5.jpg") center no-repeat;
+    background-size: cover
+}
+
+body .gallery .top>*:nth-child(6) {
+    background: url("../images/team/team-6.jpg") center no-repeat;
+    background-size: cover
+}
+
+body .gallery .bottom {
+    grid-template-columns: 1.5fr repeat(2, 2fr);
+    margin-bottom: .4em
+}
+
+body .gallery .bottom>*:first-child {
+    background: url("../images/team/team-4.jpg") center no-repeat;
+    background-size: cover
+}
+
+body .gallery .bottom>*:nth-child(2) {
+    background: url("../images/team/team-5.jpg") center center no-repeat;
+    background-size: cover
+}
+
+body .gallery .bottom>*:nth-child(3) {
+    background: url("../images/team/team-6.jpg") center center no-repeat;
+    background-size: cover
+}
+
+body .description-careers {
+    background: #F6F8FD;
+    padding: 6em 20em;
+    text-align: center
+}
+
+body .description-careers h3,
+body .description-careers h4 {
+    color: #444971;
+    font-family: "Larsseit-Medium";
+    margin-bottom: 2rem
+}
+
+body .description-careers h3 {
+    font-size: 3em
+}
+
+body .description-careers h4 {
+    padding-left: .8em
+}
+
+body .description-careers p {
+    font-size: 1.25em;
+    color: #48446F;
+}
+
+body .job-openings {
+    background: #FBFCFF;
+    padding: 6em
+}
+
+body .job-openings .heading {
+    font-size: 3em;
+    font-family: "Larsseit-Bold";
+    color: #444971;
+    margin-bottom: 1em
+}
+
+body .job-openings .content .job {
+    padding: 1.75em 0;
+    border-bottom: 1px solid #E1E4E8;
+}
+
+body .job-openings .content .job>*>* {
+    display: flex;
+    flex-direction: row
+}
+
+body .job-openings .content .job>*>*>*:last-child {
+    flex-grow: 1;
+    text-align: right
+}
+
+body .job-openings .content .job .collapseControl>* {
+    cursor: pointer;
+    color: #444971
+}
+
+body .job-openings .content .job .collapseControl>*.collapsed>* {
+    margin-bottom: 0
+}
+
+body .job-openings .content .job .collapseControl>*:not(.collapsed) {
+    color: #0744DD
+}
+
+body .job-openings .content .job .collapseControl>*:not(.collapsed) p::after {
+    background-image: url("../images/icons/up-chevron.svg")
+}
+
+body .job-openings .content .job .collapseControl>* h4 {
+    font-family: "Larsseit-Medium"
+}
+
+body .job-openings .content .job .collapseControl>* p {
+    color: #444971
+}
+
+body .job-openings .content .job .collapseControl>* p::after {
+    content: '';
+    display: inline-block;
+    height: .8em;
+    width: .8em;
+    background-size: .8em;
+    background-image: url("../images/icons/down-chevron.svg");
+    background-repeat: no-repeat;
+    margin-left: .5em;
+    background-position: center center;
+    vertical-align: middle
+}
+
+body .job-openings .content .job .collapseContent p {
+    margin-bottom: 0
+}
+
+body .job-openings .content .job .collapseContent p:first-child {
+    color: #0744DD;
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 1.25em;
+}
+
+body .job-openings .content .job .collapseContent p:not(:first-child) {
+    color: #444971
+}
+
+.inner-details span.inner-details-content {
+    max-width: 80%;
+    text-align: left !important;
+    margin-top: 12px;
+}
+
+body .image-text {
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+body .image-text p {
+    color: #637381;
+    font-family: MarkPro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 474px;
+    text-align: left;
+}
+
+body .faqs {
+    padding: 7em 8em;
+    padding-bottom: 8em;
+}
+
+body .faqs .faqs-section {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-gap: 5em
+}
+
+body .faqs .faqs-section:not(:last-child) {
+    border-bottom: 1px solid #E1E4E8;
+    margin-bottom: 4.5em;
+    padding-bottom: 4.5em;
+}
+
+body .faqs .faqs-section .heading {
+    color: #1B314B;
+    font-family: MarkPro;
+    font-size: 2.25em;
+    font-weight: 700;
+    letter-spacing: -0.15px;
+    line-height: 43px;
+    text-align: left;
+}
+
+body .faqs .faqs-section .content .question-container {
+    margin-bottom: 2em
+}
+
+body .faqs .faqs-section .content .question-container .question p {
+    margin-bottom: .5em;
+    width: 90%;
+    color: #0744DD;
+    font-family: MarkPro;
+    font-size: 1.5em;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.question-container .answer {
+    width: 90%;
+}
+
+.question-container .answer p {
+    color: #637381;
+    font-family: MarkPro;
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+body .contactAndForm {
+    padding: 0em 3em;
+    background: #fbfcff;
+}
+
+body .contactAndForm input:focus,
+body .contactAndForm select:focus,
+body .contactAndForm textarea:focus,
+body .contactAndForm button:focus {
+    outline: none
+}
+
+body .contactAndForm .left {
+    background-color: #FFFFFF;
+    border: 1px solid #DADCE0;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px 0 #D7D7E0;
+}
+
+body .contactAndForm .left h5 {
+    font-family: "Larsseit-Medium", sans-serif;
+    font-size: 1.5em;
+    color: #444971;
+    max-width: 320px;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 1.5em;
+}
+
+body .contactAndForm .left p {
+    text-align: left;
+    margin-bottom: 3rem;
+    color: #7D84A0;
+    font-family: MarkPro;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    padding: 0rem 3rem;
+}
+
+body .contactAndForm .floating-form {
+    font-size: 16px;
+    padding: 0rem 3rem;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 1.2em;
+}
+
+.form-heading-small h6 {
+    color: #444971;
+    font-family: MarkPro;
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    line-height: 22px;
+    text-align: left;
+    padding: 1.375rem 3rem;
+    border-bottom: 1px solid #e9ecef;
+}
+
+body .contactAndForm .right {
+    align-self: center
+}
+
+body .contactAndForm .right p {
+    color: #444971;
+    font-size: 18px;
+}
+
+body .contactAndForm .right p:first-child {
+    font-family: "Larsseit-Medium";
+    font-size: 24px;
+    margin-bottom: 10px
+}
+
+body .contactAndForm .right p a {
+    color: #0744DD
+}
+
+body .pricing {
+    padding-top: 3em;
+    padding-bottom: 6em;
+    background: #fbfcff
+}
+
+body .pricing .pricingTable .pricingHead .priceTitle #priceRange {
+    background: #F5F9FC
+}
+
+body .pricing .pricingTable .pricingBody,
+body .pricing .pricingTable .pricingHead {
+    display: grid;
+    grid-template-columns: 1.25fr repeat(4, 1fr)
+}
+
+body .pricing .pricingTable .pricingBody>*>*,
+body .pricing .pricingTable .pricingHead>*>* {
+    height: 3.5em
+}
+
+body .pricing .pricingTable .pricingBody>* .pTableHead,
+body .pricing .pricingTable .pricingHead>* .pTableHead {
+    height: 10em;
+    padding: 1em
+}
+
+body .pricing .pricingTable .pricingBody>* .yearlyPrice,
+body .pricing .pricingTable .pricingBody>* .monthlyPrice,
+body .pricing .pricingTable .pricingHead>* .yearlyPrice,
+body .pricing .pricingTable .pricingHead>* .monthlyPrice {
+    height: 4em
+}
+
+body .pricing .pricingTable .pricingBody>* .cashBack h4 span.info,
+body .pricing .pricingTable .pricingHead>* .cashBack h4 span.info {
+    cursor: pointer
+}
+
+body .pricing .pricingTable .pricingBody>*:first-child p,
+body .pricing .pricingTable .pricingBody>*:first-child h4,
+body .pricing .pricingTable .pricingHead>*:first-child p,
+body .pricing .pricingTable .pricingHead>*:first-child h4 {
+    font-size: 1.1em
+}
+
+body .pricing .pricingTable .pricingBody>*:first-child>*,
+body .pricing .pricingTable .pricingHead>*:first-child>* {
+    padding-left: 3em
+}
+
+body .pricing .pricingTable .pricingBody>*:first-child>*>*:last-child,
+body .pricing .pricingTable .pricingHead>*:first-child>*>*:last-child {
+    margin-bottom: 0
+}
+
+body .pricing .pricingTable .pricingBody>*:first-child>*:not(.pTableHead),
+body .pricing .pricingTable .pricingHead>*:first-child>*:not(.pTableHead) {
+    background: #E8F0F7;
+    padding: 1em;
+    padding-left: 2em;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.15)
+}
+
+body .pricing .pricingTable .pricingBody>*:first-child>*:not(.pTableHead) p,
+body .pricing .pricingTable .pricingBody>*:first-child>*:not(.pTableHead) h4,
+body .pricing .pricingTable .pricingHead>*:first-child>*:not(.pTableHead) p,
+body .pricing .pricingTable .pricingHead>*:first-child>*:not(.pTableHead) h4 {
+    margin-bottom: 0
+}
+
+body .pricing .pricingTable .pricingBody>*:first-child .pTableHead,
+body .pricing .pricingTable .pricingHead>*:first-child .pTableHead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+body .pricing .pricingTable .pricingBody>*:first-child .pTableHead .radioGroup,
+body .pricing .pricingTable .pricingHead>*:first-child .pTableHead .radioGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.1em
+}
+
+body .pricing .pricingTable .pricingBody>*:first-child .pTableHead .radioGroup input[type="radio"],
+body .pricing .pricingTable .pricingHead>*:first-child .pTableHead .radioGroup input[type="radio"] {
+    border: 0px;
+    width: 10%;
+    height: 1em;
+    margin-right: 5px;
+    color: #0744DD
+}
+
+body .pricing .pricingTable .pricingBody>*:first-child .pTableHead .radioGroup label,
+body .pricing .pricingTable .pricingHead>*:first-child .pTableHead .radioGroup label {
+    margin-bottom: 0;
+    cursor: pointer;
+    color: #53627C;
+    font-size: 17px;
+    line-height: 1.75;
+}
+
+/* Hide the browser's default radio button */
+.radioGroup {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.radioGroup input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+/* Create a custom radio button */
+.checkmark {
+    background-color: #eee;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #53627c8c;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    box-shadow: 0 0 0 2px #f3f5f6 inset;
+    box-sizing: border-box;
+    margin-right: 8px;
+}
+
+/* On mouse-over, add a grey background color */
+.radioGroup:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radioGroup input:checked~.checkmark {
+    background-color: #0744DD;
+    border: 2px solid #0744DD;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radioGroup input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radioGroup .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+body .pricing .pricingTable .pricingBody>*:first-child .featuresHead h4,
+body .pricing .pricingTable .pricingHead>*:first-child .featuresHead h4 {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: "Larsseit-Medium"
+}
+
+body .pricing .pricingTable .pricingBody>*:not(:first-child),
+body .pricing .pricingTable .pricingHead>*:not(:first-child) {
+    background: #F0F6FE;
+    background-image: linear-gradient(-180deg, #F0F6FE, #fff);
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.15)
+}
+
+body .pricing .pricingTable .pricingBody>*:not(:first-child)>*:not(.pTableHead),
+body .pricing .pricingTable .pricingHead>*:not(:first-child)>*:not(.pTableHead) {
+    background: #FFFFFF;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+body .pricing .pricingTable .pricingBody>*:not(:first-child) .pTableHead,
+body .pricing .pricingTable .pricingHead>*:not(:first-child) .pTableHead {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+body .pricing .pricingTable .pricingBody>*:not(:first-child) .pTableHead h4,
+body .pricing .pricingTable .pricingHead>*:not(:first-child) .pTableHead h4 {
+    font-family: "Larsseit-Medium";
+    font-size: 1.75em;
+    color: #0744DD;
+    /* margin-bottom: .5em */
+}
+
+body .pricing .pricingTable .pricingBody>*:not(:first-child) .pTableHead button,
+body .pricing .pricingTable .pricingHead>*:not(:first-child) .pTableHead button {
+    padding: .5em 1em;
+    width: auto;
+    margin-bottom: .25em
+}
+
+body .pricing .pricingTable .pricingBody>*:not(:first-child) .pTableHead p,
+body .pricing .pricingTable .pricingHead>*:not(:first-child) .pTableHead p {
+    color: #444971
+}
+
+.pTableHead a.btn-fill-md {
+    font-size: 13px;
+    margin-bottom: 8px;
+    padding: 6px 10px;
+    /* line-height: 2.5; */
+}
+
+body .pricing .pricingTable .pricingBody>*:not(:first-child) .yearlyPrice,
+body .pricing .pricingTable .pricingBody>*:not(:first-child) .monthlyPrice,
+body .pricing .pricingTable .pricingHead>*:not(:first-child) .yearlyPrice,
+body .pricing .pricingTable .pricingHead>*:not(:first-child) .monthlyPrice {
+    background: #FFFFFF;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+    text-align: center
+}
+
+body .pricing .pricingTable .pricingBody>*:not(:first-child) .yearlyPrice>*,
+body .pricing .pricingTable .pricingBody>*:not(:first-child) .monthlyPrice>*,
+body .pricing .pricingTable .pricingHead>*:not(:first-child) .yearlyPrice>*,
+body .pricing .pricingTable .pricingHead>*:not(:first-child) .monthlyPrice>* {
+    display: inline-block;
+    margin-bottom: 0
+}
+
+body .pricing .pricingTable .pricingBody>*:not(:first-child) .yearlyPrice p,
+body .pricing .pricingTable .pricingBody>*:not(:first-child) .monthlyPrice p,
+body .pricing .pricingTable .pricingHead>*:not(:first-child) .yearlyPrice p,
+body .pricing .pricingTable .pricingHead>*:not(:first-child) .monthlyPrice p {
+    font-family: "Larsseit-Medium";
+    font-size: 2.5em;
+    color: #444971
+}
+
+body .pricing .pricingTable .pricingBody>*:not(:first-child) .yearlyPrice p sup,
+body .pricing .pricingTable .pricingBody>*:not(:first-child) .yearlyPrice p sub,
+body .pricing .pricingTable .pricingBody>*:not(:first-child) .monthlyPrice p sup,
+body .pricing .pricingTable .pricingBody>*:not(:first-child) .monthlyPrice p sub,
+body .pricing .pricingTable .pricingHead>*:not(:first-child) .yearlyPrice p sup,
+body .pricing .pricingTable .pricingHead>*:not(:first-child) .yearlyPrice p sub,
+body .pricing .pricingTable .pricingHead>*:not(:first-child) .monthlyPrice p sup,
+body .pricing .pricingTable .pricingHead>*:not(:first-child) .monthlyPrice p sub {
+    font-size: .35em;
+    vertical-align: baseline;
+    position: relative;
+    top: -1em
+}
+
+body .pricing .pricingTable .pricingBody>*:not(:first-child) .yearlyPrice p sub,
+body .pricing .pricingTable .pricingBody>*:not(:first-child) .monthlyPrice p sub,
+body .pricing .pricingTable .pricingHead>*:not(:first-child) .yearlyPrice p sub,
+body .pricing .pricingTable .pricingHead>*:not(:first-child) .monthlyPrice p sub {
+    top: 0
+}
+
+body .pricing .pricingTable .pricingBody>* .locations,
+body .pricing .pricingTable .pricingBody>* .systemUsers,
+body .pricing .pricingTable .pricingHead>* .locations,
+body .pricing .pricingTable .pricingHead>* .systemUsers {
+    font-weight: 600
+}
+
+body .pricing .pricingTable .pricingBody .titles #priceRange,
+body .pricing .pricingTable .pricingHead .titles #priceRange {
+    background: #F5F9FC
+}
+
+body .stores {
+    padding: 7.5em 6em;
+}
+
+body .stores h2.sectionTitle {
+    text-align: center;
+    color: #444971;
+    font-family: "Larsseit-Medium";
+    font-size: 2.375em;
+    margin-bottom: 1.5em
+}
+
+body .stores .brands {
+    display: grid;
+    /* grid-template-columns: 142px 142px 142px 142px 142px 142px; */
+    grid-gap: 1.5em;
+    /* justify-items: center; */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 0em 2em;
+}
+
+body .stores .brands .customer {
+    padding: 2em 1.5em;
+    text-align: center;
+}
+
+body .stores .brands .customer p {
+    color: #222D39;
+    font-family: MarkPro;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+body .stores .brands .customer .image {
+    height: 3em;
+}
+
+body .stores .brands .customer .image img {
+    max-width: 112px;
+    max-height: 4em
+}
+
+.stores .tab-content {
+    margin-bottom: 3em;
+}
+
+body .cta-stores {
+    padding: 6em;
+    padding-top: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fbfcff
+}
+
+body .cta-stores .button a {
+    padding: 17px 40px
+}
+
+body .description-presskit {
+    background: #FBFCFF;
+    padding: 6em;
+    padding-bottom: 3em
+}
+
+body .description-presskit .sectionTitle {
+    font-family: "Larsseit-Medium";
+    font-size: 2.5em;
+    color: #444971;
+    margin-bottom: 1em
+}
+
+body .description-presskit .descriptionGroup {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10em
+}
+
+body .description-presskit .descriptionGroup>* h4 {
+    color: #444971;
+    font-family: "Larsseit-Medium";
+    font-size: 16px
+}
+
+body .description-presskit .descriptionGroup>* p {
+    font-size: 16px;
+}
+
+body .assets {
+    padding: 6em;
+    padding-top: 3em;
+    background: #FBFCFF
+}
+
+body .assets .sectionTitle {
+    font-family: "Larsseit-Medium";
+    font-size: 2.5em;
+    color: #444971;
+    margin-bottom: 1em
+}
+
+body .assets .body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2em
+}
+
+body .assets .body>* {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10em
+}
+
+body .assets .body>* .left h4 {
+    color: #444971;
+    font-family: "Larsseit-Medium";
+    font-size: 16px
+}
+
+body .assets .body>* .left p {
+    font-size: 16px
+}
+
+body .assets .body>* .right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em
+}
+
+body .assets .body>* .right .logo .image {
+    height: 8.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em
+}
+
+body .assets .body>* .right .logo .image.light {
+    background: #EEEEEE
+}
+
+body .assets .body>* .right .logo .image.dark {
+    background: #3B862F
+}
+
+body .assets .body>* .right .logo .image img {
+    height: 2.75em
+}
+
+
+body .why-pss {
+    padding: 7.5em 6em;
+}
+
+.light-grey-bg {
+    background: #FBFCFF !important;
+}
+
+.mid-grey-bg {
+    background: #F5F9FC !important;
+}
+
+.white-bg {
+    background: white !important;
+}
+
+body .why-pss .content {
+    padding-top: 6.375em;
+    text-align: center;
+}
+
+body .why-pss>*:not(:last-child) {
+    margin-bottom: 4em
+}
+
+body .why-pss>*:not(.ourValues):not(.glootianCreed) .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 6em
+}
+
+body .why-pss>*:not(.ourValues):not(.glootianCreed) .content .text p:first-of-type {
+    font-family: "Larsseit-Medium";
+    color: #444971;
+    font-size: 1.5em;
+}
+
+body .why-pss>*:not(.ourValues):not(.glootianCreed) .content .text p:not(:first-of-type) {
+    font-size: 1.125em;
+    color: #48446F;
+}
+
+body .why-pss>*:not(.ourValues):not(.glootianCreed) .content .image img {
+    max-width: 400px
+}
+
+body .why-pss>* .sectionTitle {
+    color: #1B314B;
+    font-family: MarkPro;
+    font-size: 2.25em;
+    font-weight: 700;
+    letter-spacing: -0.15px;
+}
+
+body .why-pss .ourVision .content .text {
+    order: 2
+}
+
+body .why-pss .ourVision .content .image {
+    order: 1
+}
+
+body .why-pss .glootianCreed .content>p {
+    color: #444971;
+    font-family: "Larsseit", sans-serif;
+    font-size: 1.5em;
+    width: 55%;
+    margin-bottom: 1em
+}
+
+body .why-pss .ourValues .sectionTitle {
+    margin-bottom: 0.4em
+}
+
+body .why-pss .ourValues .content .values {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 6em;
+    grid-row-gap: 3em
+}
+
+body .why-pss .ourValues .content .values .value img {
+    margin-bottom: 2em
+}
+
+body .why-pss .ourValues .content .values .value h6 {
+    margin-bottom: 0.5em;
+    color: #1B314B;
+    font-family: MarkPro;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: -0.24px;
+}
+
+body .why-pss .ourValues .content .values .value p {
+    margin-bottom: 0;
+    color: #697788;
+    font-family: MarkPro;
+    font-size: 1em;
+    /* font-weight: 400; */
+    line-height: 21px;
+}
+
+.sub-h2 {
+    color: #637381;
+    font-family: MarkPro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 516px;
+    margin: 0 auto;
+}
+
+.sub-h3 {
+    color: #637381;
+    font-family: MarkPro;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0 auto;
+}
+
+.mb30 {
+    margin-bottom: 30px !important;
+}
+
+.mb10rem {
+    margin-bottom: 10rem !important;
+}
+
+.mt10rem {
+    margin-top: 10rem !important;
+}
+
+.pb10rem {
+    padding-bottom: 10rem !important;
+}
+
+.pt10rem {
+    padding-top: 10rem !important;
+}
+
+.pb6rem {
+    padding-bottom: 6rem !important;
+}
+
+.pt6rem {
+    padding-top: 6rem !important;
+}
+
+.cta .sub-h3 {
+    margin-bottom: 1.5em;
+}
+
+body .ourInvestors {
+    padding: 6em;
+    background: #F6F8FD
+}
+
+body .ourInvestors .sectionTitle {
+    font-family: "Larsseit-Medium";
+    font-size: 2.5em;
+    color: #48446F;
+    text-align: center;
+    margin-bottom: 2em
+}
+
+body .ourInvestors .investors {
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+body .ourInvestors .investors .investor {
+    width: 20em;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+body .ourInvestors .investors .investor:not(:last-child) {
+    border-right: 1px solid #ECEEF9
+}
+
+body .ourInvestors .investors .investor .image {
+    height: 6em
+}
+
+body .ourInvestors .investors .investor .image img {
+    max-height: 4em
+}
+
+body .ourInvestors .investors .investor p {
+    font-size: 1.15em;
+    color: #444971;
+    font-family: "Larsseit", sans-serif;
+}
+
+body .pressSection {
+    padding: 6em;
+    background: #FBFCFF;
+    background-color: #FBFCFF;
+}
+
+body .pressSection .sectionTitle {
+    font-family: "Larsseit-Medium";
+    font-size: 2.375em;
+    color: #444971;
+    text-align: center;
+    margin-bottom: 1em
+}
+
+body .pressSection .pressGroup {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em
+}
+
+body .pressSection .pressGroup a {
+    color: #212121
+}
+
+body .pressSection .pressGroup a:hover {
+    text-decoration: none;
+    color: #212121
+}
+
+body .pressSection .pressGroup a .press {
+    padding: 1.5em;
+    border-radius: 5px
+}
+
+body .pressSection .pressGroup a .press .image {
+    margin-bottom: 1em
+}
+
+body .pressSection .pressGroup a .press .image img {
+    max-width: 170px;
+    max-height: 30px
+}
+
+body .pressSection .pressLogos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+body .pressSection .pressLogos>*:not(:last-child) {
+    margin-right: 30px
+}
+
+body .pressSection .pressLogos .pressLogo .logo img {
+    height: 30px
+}
+
+body .cta {
+    background-color: #FBFCFF;
+    padding: 6em 6em;
+    align-items: center;
+}
+
+body .cta .left p:first-child {
+    font-size: 2.25em;
+    font-weight: 600;
+    color: #444971;
+    margin-bottom: 0;
+    font-family: "Larsseit", sans-serif;
+}
+
+.pagewrap {
+    max-width: 1320px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body .cta .left p:not(:first-child) {
+    font-size: 1.5em
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+::-webkit-input-placeholder {
+    color: #cccccc;
+}
+
+:-ms-input-placeholder {
+    color: #cccccc;
+}
+
+::-ms-input-placeholder {
+    color: #cccccc;
+}
+
+::placeholder {
+    color: #cccccc;
+}
+
+
+.input-group {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.input-group__label {
+    background: #ffffff;
+    color: #999999;
+    font-size: .75rem;
+    left: 0;
+    margin-left: .5rem;
+    transition: all .3s ease-in-out;
+    opacity: 0;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    position: absolute;
+    top: 0;
+}
+
+.input-group__field {
+    border-color: #eeeeee;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.input-group__field:focus {
+    outline: 0;
+}
+
+
+.floating-form {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/****  floating-Lable style start ****/
+.floating-label {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.floating-input,
+.floating-select {
+    font-size: 18px;
+    font-family: "MarkPro", sans-serif;
+    padding: 0px 16px;
+    display: block;
+    width: 100%;
+    height: 48px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #757575;
+    border: 1px solid #444971;
+    border-radius: 4px;
+    color: #444971;
+}
+
+.floating-input:focus,
+.floating-select:focus {
+    outline: none;
+    border: 2px solid #0744DD;
+    ;
+    border-radius: 4px;
+}
+
+.floating-label label {
+    color: #999;
+    font-size: 14px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 12px;
+    top: 8px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+    color: #48446F;
+    font-family: "MarkPro", sans-serif;
+    font-size: 18px;
+    opacity: 0.6;
+}
+
+.floating-input:not(:placeholder-shown)~label {
+    top: -10px;
+    font-size: 14px;
+    color: #444874;
+    opacity: 1;
+    background: white;
+    padding: 0px 5px;
+}
+
+.floating-input:focus~label {
+    top: -10px;
+    font-size: 14px;
+    color: #0744DD;
+    ;
+    ;
+    opacity: 1;
+    background: white;
+    padding: 0px 5px;
+}
+
+.floating-select:active~label,
+.floating-select:visited~label,
+.floating-select:not(:placeholder-shown)~label {
+    top: -10px;
+    font-size: 14px;
+    color: #444874;
+    opacity: 1;
+    background: white;
+    padding: 0px 5px;
+}
+
+.floating-select:focus~label,
+.floating-select:not([value=""]):valid~label {
+    top: -18px;
+    font-size: 14px;
+    top: -10px;
+    font-size: 14px;
+    color: #0744DD;
+    ;
+    opacity: 1;
+    background: white;
+    padding: 0px 5px;
+}
+
+/* active state */
+.floating-input:focus~.bar:before,
+.floating-input:focus~.bar:after,
+.floating-select:focus~.bar:before,
+.floating-select:focus~.bar:after {
+    width: 50%;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.floating-textarea {
+    min-height: 30px;
+    height: 180px;
+    overflow: hidden;
+    overflow-x: hidden;
+    padding-top: 12px;
+}
+
+/* highlighter */
+.highlight {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    top: 15%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+/* active state */
+.floating-input:focus~.highlight,
+.floating-select:focus~.highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease;
+}
+
+/* animation */
+@-webkit-keyframes inputHighlighter {
+    from {
+        background: #fff;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@-moz-keyframes inputHighlighter {
+    from {
+        background: #fff;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@keyframes inputHighlighter {
+    from {
+        background: #fff;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+/****  floating-Lable style end ****/
+
+/***   daniel - Fork me friend - style   ***/
+.floating-credit {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #aaa;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
+
+.floating-credit a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.floating-credit a:hover {
+    border-bottom: 1px dotted #f8f8f8;
+}
+
+.floating-heading {
+    position: fixed;
+    color: #aaa;
+    font-size: 20px;
+    font-family: arial, sans-serif;
+}
+
+.formPSSbtn {
+    background: #0744DD;
+    margin: auto;
+    line-height: 1.75;
+    font-family: MarkPro;
+    font-size: 16px;
+    background-image: linear-gradient(180deg, #1179F0 0%, #0744DD 100%);
+    border: 1px solid #0744DD;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px 0 rgba(15, 115, 238, 0.52);
+
+}
+
+button.formPSSbtn {
+    width: 100%;
+}
+
+.gloopress .brandList .brand img {
+    max-width: 6em !important;
+}
+
+.borderless {
+    border: none !important;
+}
+
+body .featured.glooPress {
+    padding: 2em 0em;
+}
+
+.v-tabs-container {
+    padding-top: 7.5em;
+    padding-bottom: 7.5em;
+    border-top: 1px solid #E1E4E8;
+    border-bottom: 1px solid #E1E4E8;
+}
+
+.nav-tabs.v-tabs {
+    border: none;
+}
+
+.nav-tabs.v-tabs .nav-item.show .nav-link,
+.nav-tabs.v-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: transparent;
+    color: #212B35;
+    font-family: MarkPro;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-tabs.v-tabs .nav-link {
+    border: none;
+    font-family: MarkPro;
+    font-size: 18px;
+}
+
+.v-tab-content .content .question-title h2 {
+    color: #1B314B;
+    font-family: MarkPro;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.15px;
+    margin-bottom: 2.5rem;
+}
+
+.v-tab-content .content .question-container .question h6 {
+    color: #212B35;
+    font-family: MarkPro;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: -0.24px;
+    margin-bottom: 1rem;
+}
+
+.v-tab-content .content .question-container .answer p {
+    color: #637381;
+    font-family: MarkPro;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 1097px) {
+    .sticky {
+        position: initial;
+        top: 0;
+        width: auto;
+        z-index: 999
+    }
+
+    body .why-pss>*:not(.ourValues):not(.glootianCreed) .content .text p:not(:first-of-type) {
+        font-size: 1.375em;
+        color: #48446F;
+    }
+
+    body .why-pss>*:not(.ourValues):not(.glootianCreed) .content .text p:first-of-type {
+        font-family: "Larsseit-Medium";
+        color: #444971;
+        font-size: 1.75em;
+    }
+
+    body .pricing .pricingTable .pricingBody>*:first-child .pTableHead .radioGroup label,
+    body .pricing .pricingTable .pricingHead>*:first-child .pTableHead .radioGroup label {
+        font-size: 15px;
+    }
+
+    body .contactAndForm .left p {
+        font-size: 1.375em;
+    }
+}
+
+@media (min-width: 36.9em) and (max-width: 69.9em) {
+    body {
+        font-size: 12px
+    }
+
+    body .description-mediumEnterprise .bottom .left p {
+        font-size: 1.5em;
+    }
+
+    body .description-mediumEnterprise .top h2 {
+        font-size: 2.5em;
+    }
+
+    body .description-mediumEnterprise .bottom .left p.p18 {
+        font-size: 16px;
+    }
+
+    body .features-mediumEnterprise .feature p {
+        font-size: 1.325em;
+    }
+
+    body .features-mediumEnterprise .feature h3 {
+        font-size: 1.75em;
+        margin-bottom: 0.75rem;
+    }
+
+    body>* {
+        padding-left: 4em;
+        padding-right: 4em
+    }
+
+    body header .hero .left h1 {
+        font-size: 3.5em
+    }
+
+    body header .hero .left>p:last-of-type {
+        color: #53627C;
+        font-size: 1.375em;
+    }
+
+    body .description .top h2 {
+        font-size: 2.5em
+    }
+
+    body .description .top p {
+        font-size: 1.75em;
+    }
+
+    body .testimonial .heading {
+        font-size: 2.75em
+    }
+
+    body .brandsSection .brandList .brand img {
+        width: 6em
+    }
+
+    body .featured>*:first-child {
+        margin-right: 2em
+    }
+
+    body .featured .brandList .brand:not(:last-child) {
+        margin-right: 2em
+    }
+
+    body .featured .brandList .brand img {
+        max-width: 5.5em
+    }
+
+    body footer {
+        grid-template-columns: repeat(5, 1fr)
+    }
+
+    body footer .about img {
+        width: 8em
+    }
+
+    body .description-careers {
+        padding: 6em 10em
+    }
+
+    body .stores .brands {
+        grid-template-columns: repeat(3, 1fr)
+    }
+
+    body .stores .brands .customer .image {
+        height: 1em
+    }
+
+    body .stores .brands .customer .image img {
+        max-width: 6em;
+        max-height: 2.5em
+    }
+
+    body .stores .brands .customer p {
+        font-size: 16px;
+        padding-top: 20px;
+    }
+
+    body .description-largeEnterprise {
+        padding: 3em 4em;
+        grid-gap: 3em;
+        padding: 3em
+    }
+
+    body .description-largeEnterprise>* p {
+        font-size: 1.75em
+    }
+
+    body .description-largeEnterprise>* ul li {
+        font-size: 1.25em
+    }
+
+    body .erpIntegration .top {
+        width: 100%
+    }
+
+    body .erpIntegration .brands img {
+        max-height: 2.5em
+    }
+
+    body .erpIntegration .brands img:not(:last-child) {
+        margin-right: 1em
+    }
+
+    body .procurementSimplified .bottom {
+        grid-template-columns: 1fr
+    }
+
+    body .procurementSimplified .bottom .left {
+        order: 2
+    }
+
+    body .procurementSimplified .bottom .right {
+        order: 1
+    }
+
+    body .procurementSimplified .bottom .right img {
+        width: 90%
+    }
+
+    body .contactAndForm {
+        grid-template-columns: 1fr
+    }
+
+    body .contactAndForm {
+        padding: 0em 8em;
+        padding-bottom: 10em;
+    }
+
+    body .contactAndForm .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center
+    }
+
+    body .description .bottom .right p:first-child {
+        color: #444971;
+        font-family: "Larsseit-Medium", sans-serif;
+        font-size: 1.125em;
+        line-height: 1.5;
+    }
+
+    body .description-careers p {
+        font-size: 1.5em;
+        color: #48446F;
+    }
+
+    ul.glooList li {
+        font-size: 1em;
+    }
+
+    body .features .body .feature .content p {
+        font-size: 1.5em;
+        line-height: 1.5;
+    }
+
+    body .why-pss>*:not(.ourValues):not(.glootianCreed) .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center
+    }
+
+    body .why-pss>*:not(.ourValues):not(.glootianCreed) .content .image img {
+        max-width: 200px
+    }
+
+    body .why-pss .ourStory .content .text {
+        margin-right: 50px
+    }
+
+    body .why-pss .ourVision .content .image {
+        margin-right: 50px
+    }
+
+    body .why-pss .glootianCreed .content>p {
+        width: 70%
+    }
+
+    body .why-pss .ourValues .sectionTitle {
+        margin-bottom: 1em
+    }
+
+    body .why-pss .ourValues .content .values {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 4em;
+        grid-row-gap: 3em
+    }
+
+    body .why-pss .ourValues .content .values .value img {
+        margin-bottom: 1em
+    }
+
+    body .why-pss {
+        padding: 8em 6em;
+    }
+
+    body .why-pss .ourValues .content .values .value h6 {
+        color: #444971;
+        font-weight: 600;
+        font-size: 1.25em;
+        margin-bottom: 8px
+    }
+
+    body .why-pss .ourValues .content .values .value p {
+        font-size: 1.25em;
+        margin-bottom: 0
+    }
+
+    body .ourInvestors .investors .investor {
+        width: 16em;
+        height: 11em
+    }
+}
+
+.activeBtn {
+    background-image: linear-gradient(7.69deg, #19754B 0%, #0744DD 100%);
+    border-radius: 25px;
+    box-shadow: 2px 4px 6px 2px rgba(53, 133, 49, 0.2), 2px 2px 3px 0 rgba(116, 227, 141, 0.25);
+    padding: 1em 2em !important;
+}
+
+@media (max-width: 830px) {
+    ul.glooList li {
+        font-size: 1em;
+    }
+
+    body .erpIntegration .top p {
+        font-size: 1.75em;
+    }
+
+    body .erpIntegration .top h2 {
+        font-family: "Larsseit-Medium";
+        color: #444971;
+        font-size: 2.375em;
+    }
+
+    body .stores .brands .customer p {
+        font-size: 1.25em;
+    }
+
+    body .description-careers p {
+        font-size: 1.5em;
+        color: #48446F;
+    }
+
+    body .pricing-mobile {
+        background: #FBFCFF;
+        font-size: 18px;
+        padding-top: 20px;
+        padding-bottom: 100px;
+        padding: 20px
+    }
+
+    body .pricing-mobile .switch {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 36px
+    }
+
+    body .pricing-mobile .switch>*:not(:last-child) {
+        margin-right: 20px
+    }
+
+    body .pricing-mobile .switch .radioGroup {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center
+    }
+
+    body .pricing-mobile .switch .radioGroup input[type="radio"] {
+        width: 20px;
+        height: 1em;
+        margin-right: 3px
+    }
+
+    body .pricing-mobile .switch .radioGroup label {
+        margin-bottom: 0;
+        cursor: pointer
+    }
+
+    body .pricing-mobile .plans {
+        margin-bottom: 100px
+    }
+
+    body .pricing-mobile .plans .plan {
+        background-color: #FFFFFF;
+        border: 0.5px solid #A4B0C1;
+        border-radius: 5px
+    }
+
+    body .pricing-mobile .plans .plan:not(:last-child) {
+        margin-bottom: 40px
+    }
+
+    body .pricing-mobile .plans .plan>* {
+        padding: 15px 30px
+    }
+
+    body .pricing-mobile .plans .plan .head {
+        display: grid;
+        grid-template-columns: 5fr 1fr;
+        background: #F0F6FE;
+        width: calc(100% + 1px);
+        margin-left: -1px;
+        margin-bottom: 20px;
+        border: 1px solid #DDE5EF;
+        border-radius: 5px 5px 0 0;
+        box-shadow: 0 3px 5px 0 rgba(10, 31, 68, 0.1), 0 0 1px 0 rgba(10, 31, 68, 0.08)
+    }
+
+    body .pricing-mobile .plans .plan .head p {
+        margin-bottom: 0
+    }
+
+    body .pricing-mobile .plans .plan .head .left h3 {
+        color: #0744DD;
+        font-family: "Larsseit-Medium";
+        margin-bottom: 0
+    }
+
+    body .pricing-mobile .plans .plan .head .left p {
+        font-size: .9em
+    }
+
+    body .pricing-mobile .plans .plan .head .right p {
+        font-family: "Larsseit-Medium";
+        font-size: 2.5em
+    }
+
+    body .pricing-mobile .plans .plan .head .right p sup,
+    body .pricing-mobile .plans .plan .head .right p sub {
+        font-size: .3em;
+        vertical-align: baseline;
+        position: relative;
+        top: -1.25em
+    }
+
+    body .pricing-mobile .plans .plan .head .right p sub {
+        top: 0
+    }
+
+    body .pricing-mobile .plans .plan .body {
+        padding-bottom: 70px
+    }
+
+    body .pricing-mobile .plans .plan .body ul {
+        padding: 0;
+        font-size: 1.1em;
+        margin-bottom: 50px
+    }
+
+    body .pricing-mobile .plans .plan .body ul li {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 20px
+    }
+
+    body .pricing-mobile .plans .plan .body ul li span {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        margin-right: 15px
+    }
+
+    body .pricing-mobile .plans .plan .body ul li.positive span {
+        background: url("../images/icons/check.svg") center no-repeat;
+        background-size: contain
+    }
+
+    body .pricing-mobile .plans .plan .body ul li.negative span {
+        background: url("../images/icons/cancel.svg") center no-repeat;
+        background-size: contain
+    }
+
+    body .pricing-mobile .plans .plan .body ul li.content {
+        align-items: flex-start
+    }
+
+    body .pricing-mobile .plans .plan .body ul li.content span {
+        background-color: transparent;
+        font-weight: 600
+    }
+
+    body .pricing-mobile .plans .plan .body ul li p {
+        display: inline-block;
+        margin-bottom: 0
+    }
+
+    body .pricing-mobile .plans .plan .body a.btn-fill-md {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: .8em;
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+
+    body .description-largeEnterprise>* p {
+        font-size: 1.75em;
+    }
+
+    body .contactAndForm .left {
+        margin-top: -13em;
+        padding: 4em 3em;
+    }
+
+    body .contactAndForm .left p {
+        font-size: 1.375em;
+    }
+
+    body .contactAndForm .right p {
+        font-size: 1.5em;
+    }
+
+    body .contactAndForm .right p:first-child {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 36.89em) {
+    body {
+        font-size: 10px
+    }
+
+    body>* {
+        padding-left: 2em;
+        padding-right: 2em
+    }
+
+    body header {
+        grid-template-rows: 1fr 10fr;
+        background-position: center center
+    }
+
+    body header.single {
+        padding: 2em;
+        height: auto;
+        padding-bottom: 0
+    }
+
+    body header .hero {
+        grid-template-columns: 1fr;
+        grid-gap: 5em;
+        padding-bottom: 5em
+    }
+
+    body header .hero.single {
+        padding: 0;
+        height: auto;
+        padding: 10em 2em;
+        padding-top: 5em
+    }
+
+    body header .hero.single .content {
+        width: 100%
+    }
+
+    body header .hero.single .content h1 {
+        font-size: 3.75em;
+    }
+
+    body header .hero.single .content p {
+        font-size: 1.5em;
+        margin-bottom: 5rem;
+    }
+
+    ul.glooList li {
+        font-size: 1em;
+    }
+
+    body header .hero .left .title p {
+        font-size: 1.25em
+    }
+
+    body header .hero .left h1 {
+        font-size: 3.75em
+    }
+
+    body header .hero .left>p:first-of-type {
+        font-size: 1.5em
+    }
+
+    body header .hero .left>p:nth-of-type(2) {
+        font-size: 1.25em
+    }
+
+    body header .hero .left .links {
+        margin-bottom: 48px
+    }
+
+    body header .hero .left .links>*:first-child {
+        margin-right: 1.5em
+    }
+
+    body header .hero .left .links button {
+        font-size: 1.5em
+    }
+
+    body header .hero .left .links a {
+        font-size: 1.5em;
+        color: #0744DD
+    }
+
+    body header .hero .left .brands .heading {
+        font-size: 1.5em;
+    }
+
+    body header .hero .left .brands .content .brand img {
+        max-height: 24px
+    }
+
+    body .description,
+    body .description-largeEnterprise {
+        padding-top: 0em;
+    }
+
+    body .description .top h2 {
+        font-size: 3em
+    }
+
+    body .description .top p {
+        font-size: 1.8em
+    }
+
+    body .description .bottom {
+        grid-template-columns: 1fr
+    }
+
+    body .description .bottom .right p:first-child {
+        font-size: 1.5em
+    }
+
+    body .description .bottom .right ul.glooList {
+        font-size: 1.25em;
+        line-height: 2
+    }
+
+    body .features {
+        padding: 6em 2em
+    }
+
+    body .features .heading {
+        font-size: 4em
+    }
+
+    body .features .body>*:nth-child(even) {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end
+    }
+
+    body .features .body>*:nth-child(even)>.image {
+        align-items: flex-start;
+        margin: 0 auto;
+    }
+
+    body .features .body>*:not(:last-child) {
+        margin-bottom: 80px;
+    }
+
+    body .features .body .feature {
+        grid-template-columns: 1fr
+    }
+
+    body .features .body .feature .content .image img {
+        max-height: 5em
+    }
+
+    body .features .body .feature .content h3 {
+        font-size: 3em
+    }
+
+    body .features .body .feature .content p {
+        font-size: 1.8em
+    }
+
+    body .features .body .feature>.image img {
+        width: 80%
+    }
+
+    body .description-largeEnterprise>* ul li {
+        font-size: 1.5em
+    }
+
+    body .testimonial {
+        padding: 6em 2em
+    }
+
+    body .testimonial .testimonial-body {
+        flex-direction: column
+    }
+
+    body .testimonial .testimonial-body>*:not(:last-child) {
+        margin-right: 0
+    }
+
+    body .testimonial .testimonial-body>*:not(:last-child) {
+        margin-bottom: 1.5em
+    }
+
+    body .testimonial .testimonial-body .testimony {
+        padding: 3em
+    }
+
+    body .testimonial .testimonial-body .testimony .content p {
+        font-size: 1.5em;
+        line-height: 1.25;
+    }
+
+    body .testimonial .testimonial-body .testimony .bottom .profileDetail p:first-child {
+        font-size: 1.5em;
+        line-height: 1.25;
+    }
+
+    body .testimonial .testimonial-body .testimony .bottom .profileDetail p:last-child {
+        font-size: 1.25em;
+        line-height: 1.25;
+    }
+
+    body .brandsSection .heading p span:first-child {
+        font-size: 1.75em;
+    }
+
+    body .brandsSection {
+        padding: 4em;
+    }
+
+    body .brandsSection .heading p span:nth-child(2) {
+        font-size: 1.5em
+    }
+
+    body .brandsSection .brandList {
+        flex-wrap: wrap
+    }
+
+    body .brandsSection .brandList>*:not(:last-child) {
+        margin-right: 2em
+    }
+
+    body .brandsSection .brandList .brand {
+        margin-bottom: 2em
+    }
+
+    body .brandsSection .brandList .brand img {
+        max-width: 8.5em
+    }
+
+    body .brandsSection .bottom .links {
+        display: flex;
+        flex-direction: column-reverse
+    }
+
+    body .brandsSection .bottom .links a {
+        text-align: center;
+        margin-bottom: 1em;
+        font-size: 1.5em
+    }
+
+    body .brandsSection .bottom .links>*:first-child {
+        margin-right: 0
+    }
+
+    body .brandsSection .bottom p:last-child {
+        font-size: 1.25em
+    }
+
+    body .why-pss>*:not(.ourValues):not(.glootianCreed) .content .text p:first-of-type {
+        font-family: "Larsseit-Medium";
+        color: #444971;
+        font-size: 1.75em;
+    }
+
+    body .why-pss>*:not(.ourValues):not(.glootianCreed) .content .text p:not(:first-of-type) {
+        font-size: 1.5em;
+        color: #48446F;
+    }
+
+    body .why-pss .ourValues .content .values .value p {
+        font-size: 1.5em;
+        margin-top: 6px;
+        margin-bottom: 0;
+    }
+
+    body .why-pss .ourValues .content .values .value h6 {
+        font-size: 1.5em;
+    }
+
+    body .certifications {
+        margin-bottom: 0
+    }
+
+    body .certifications .heading {
+        font-size: 3em;
+        margin-bottom: 0
+    }
+
+    body .certifications .content {
+        flex-direction: column
+    }
+
+    body .contactAndForm .left h5 {
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+
+    body .certifications .content>*:not(:last-child) {
+        margin-right: 0
+    }
+
+    body .certifications .content .certification .certLogo {
+        height: 8em;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end
+    }
+
+    body .certifications .content .certification .certLogo img {
+        max-height: 6em;
+        max-width: 20em;
+        margin-bottom: 1.5em
+    }
+
+    body .certifications .content .certification .content p {
+        font-size: 1.5em
+    }
+
+    body .featured {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 6em 2em
+    }
+
+    body .featured .heading {
+        margin-bottom: 1.5em
+    }
+
+    body .featured .brandList {
+        flex-wrap: wrap
+    }
+
+    body .featured .brandList .brand {
+        margin-bottom: 2em
+    }
+
+    body .contactAndForm {
+        padding: 0em 2em;
+        grid-template-columns: 1fr;
+        padding-bottom: 12em;
+    }
+
+    body .contactAndForm .left p {
+        font-size: 1.5em;
+    }
+
+    body .contactAndForm .right p:first-child {
+        font-size: 2em;
+    }
+
+    body .contactAndForm .right p {
+        font-size: 1.375em;
+    }
+
+    body .contactAndForm .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center
+    }
+
+    body footer {
+        padding: 6em 2em;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, auto), auto;
+        grid-template-areas: "top top""middleLeft middleRight""BottomLeft bottomRight";
+        grid-gap: 1em
+    }
+
+    body footer .about {
+        grid-area: top
+    }
+
+    body footer .about p:first-of-type {
+        font-size: 1rem
+    }
+
+    body footer .about p:nth-of-type(2) {
+        font-size: 0.9rem
+    }
+
+    body footer .links ul li {
+        font-size: 0.9rem
+    }
+
+    body footer .contact-us p {
+        font-size: 0.9rem
+    }
+
+    body .description-mediumEnterprise .bottom {
+        grid-template-columns: 1fr
+    }
+
+    body .description-mediumEnterprise .bottom .left h3 {
+        font-size: 2em
+    }
+
+    body .description-mediumEnterprise .top h2 {
+        font-size: 2.75em;
+    }
+
+    body .description-mediumEnterprise .bottom .left p {
+        font-size: 1.9em
+    }
+
+    body .description-mediumEnterprise .bottom .left p.p18 {
+        font-size: 17px;
+    }
+
+    body .features-mediumEnterprise {
+        grid-template-columns: 1fr;
+        padding: 10em 2em
+    }
+
+    body .features-mediumEnterprise {
+        grid-gap: 6em;
+    }
+
+    body .features-mediumEnterprise .feature h3 {
+        font-size: 2.5em
+    }
+
+    body .features-mediumEnterprise .feature p {
+        font-size: 1.7em
+    }
+
+    body .description-largeEnterprise {
+        padding: 4em;
+        padding-top: 0em;
+        grid-template-columns: 1fr
+    }
+
+    body .description-largeEnterprise>*:first-child {
+        border-right: none;
+        padding-right: 0
+    }
+
+    body .erpIntegration {
+        padding: 4em
+    }
+
+    body .erpIntegration .top {
+        width: 100%
+    }
+
+    body .erpIntegration .brands {
+        flex-wrap: wrap
+    }
+
+    body .erpIntegration .brands img {
+        max-width: 7em;
+        margin-bottom: 1.5em
+    }
+
+    body .erpIntegration .brands>*:not(:last-child) {
+        margin-right: 1em
+    }
+
+    body .procurementSimplified {
+        padding: 4em
+    }
+
+    body .procurementSimplified .bottom {
+        grid-template-columns: 1fr
+    }
+
+    body .procurementSimplified .bottom .left {
+        order: 2
+    }
+
+    body .procurementSimplified .bottom .right {
+        order: 1
+    }
+
+    body .procurementSimplified .bottom .right img {
+        width: 95%
+    }
+
+    body .gallery .top {
+        grid-template-columns: 2fr 1.5fr
+    }
+
+    body .gallery .bottom {
+        grid-template-columns: 1.5fr 2fr
+    }
+
+    body .description-careers {
+        padding: 6em 2em
+    }
+
+    body .description-careers h3,
+    body .description-careers h4 {
+        margin-bottom: 1em;
+        font-family: "Larsseit-Medium"
+    }
+
+    body .description-careers h3 {
+        font-size: 2.5em
+    }
+
+    body .description-careers h4 {
+        font-size: 1.75em
+    }
+
+    body .description-careers p {
+        font-size: 1.6em;
+        color: #48446F;
+    }
+
+    body .job-openings {
+        padding: 6em 2em
+    }
+
+    body .job-openings .content .job p {
+        font-size: 1.25em
+    }
+
+    body .job-openings .content .job>*>* {
+        display: flex;
+        flex-direction: column
+    }
+
+    body .job-openings .content .job .collapseContent p:first-child {
+        font-size: 2em;
+    }
+
+    body .job-openings .content .job>*>*>*:last-child {
+        flex-grow: 1;
+        text-align: left;
+        font-size: 1.75em;
+    }
+
+    .inner-details span.inner-details-content {
+        max-width: 90%;
+    }
+
+    body .faqs {
+        padding: 6em 2em
+    }
+
+    body .vertical-tabs-div {
+        padding: 6em 2em
+    }
+
+    body .faqs .faqs-section {
+        grid-template-columns: 1fr;
+        grid-gap: 1em
+    }
+
+    body .faqs .faqs-section .heading {
+        text-align: left;
+        font-size: 32px;
+    }
+
+    .question-container .answer {
+        width: 90%;
+    }
+
+    body .faqs .faqs-section .content .question-container .question p {
+        font-size: 24px
+    }
+
+    body .faqs .faqs-section .content .question-container .answer p {
+        font-size: 18px
+    }
+
+    body .stores {
+        padding: 2em;
+        display: flex;
+        flex-direction: column
+    }
+
+    body .stores .brands {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap
+    }
+
+    body .stores .brands .customer {
+        width: calc(100% * (1/2) - 10px);
+        margin-right: 10px;
+        margin-bottom: 20px
+    }
+
+    body .stores .brands .customer:nth-child(2n) {
+        width: calc(100% * (1/2) - 10px);
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+
+    body .stores .brands .customer p {
+        font-size: 1.25em;
+        margin-top: 20px;
+    }
+
+    body .stores .brands .customer {
+        padding: 1.5em;
+    }
+
+    body .stores .brands .customer .image {
+        height: 1em
+    }
+
+    body .stores .brands .customer .image img {
+        max-width: 100px;
+        max-height: 2em
+    }
+
+    body .description-presskit {
+        padding: 30px
+    }
+
+    body .description-presskit .descriptionGroup {
+        grid-template-columns: 1fr;
+        grid-gap: 4em
+    }
+
+    body .assets {
+        padding: 30px
+    }
+
+    body .assets .body>* {
+        grid-template-columns: 1fr;
+        grid-gap: 30px
+    }
+
+    body .assets .body>* .right {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0px
+    }
+
+    body .assets .body>* .right .logo .image {
+        height: 8.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1em
+    }
+
+    body .assets .body>* .right .logo .image.light {
+        background: #EEEEEE
+    }
+
+    body .assets .body>* .right .logo .image.dark {
+        background: #3B862F
+    }
+
+    body .assets .body>* .right .logo .image img {
+        height: 2.75em
+    }
+
+    body .pricing-mobile {
+        background: #FBFCFF;
+        font-size: 18px;
+        padding-top: 20px;
+        padding-bottom: 100px;
+        padding: 20px
+    }
+
+    body .pricing-mobile .switch {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px
+    }
+
+    body .pricing-mobile .switch>*:not(:last-child) {
+        margin-right: 20px
+    }
+
+    body .pricing-mobile .switch .radioGroup {
+        display: flex;
+        justify-content: flex-start align-items: center
+    }
+
+    body .pricing-mobile .switch .radioGroup input[type="radio"] {
+        width: 20px;
+        height: 1em;
+        margin-right: 3px
+    }
+
+    body .pricing-mobile .switch .radioGroup label {
+        margin-bottom: 0;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    body .pricing-mobile .plans {
+        margin-bottom: 100px
+    }
+
+    body .pricing-mobile .plans .plan {
+        background-color: #FFFFFF;
+        border: 0.5px solid #A4B0C1;
+        border-radius: 5px
+    }
+
+    body .pricing-mobile .plans .plan:not(:last-child) {
+        margin-bottom: 40px
+    }
+
+    body .pricing-mobile .plans .plan>* {
+        padding: 15px 30px
+    }
+
+    body .pricing-mobile .plans .plan .head {
+        display: grid;
+        grid-template-columns: 5fr 1fr;
+        background: #F0F6FE;
+        width: calc(100% + 1px);
+        margin-left: -1px;
+        margin-bottom: 20px;
+        border: 1px solid #DDE5EF;
+        border-radius: 5px 5px 0 0;
+        box-shadow: 0 3px 5px 0 rgba(10, 31, 68, 0.1), 0 0 1px 0 rgba(10, 31, 68, 0.08)
+    }
+
+    body .pricing-mobile .plans .plan .head p {
+        margin-bottom: 0
+    }
+
+    body .pricing-mobile .plans .plan .head .left h3 {
+        color: #0744DD;
+        font-family: "Larsseit-Medium";
+        margin-bottom: 0
+    }
+
+    body .pricing-mobile .plans .plan .head .left p {
+        font-size: .9em
+    }
+
+    body .pricing-mobile .plans .plan .head .right p {
+        font-family: "Larsseit-Medium";
+        font-size: 2.5em
+    }
+
+    body .pricing-mobile .plans .plan .head .right p sup,
+    body .pricing-mobile .plans .plan .head .right p sub {
+        font-size: .3em;
+        vertical-align: baseline;
+        position: relative;
+        top: -1.25em
+    }
+
+    body .pricing-mobile .plans .plan .head .right p sub {
+        top: 0
+    }
+
+    body .pricing-mobile .plans .plan .body {
+        padding-bottom: 70px
+    }
+
+    body .pricing-mobile .plans .plan .body ul {
+        padding: 0;
+        font-size: 1.1em;
+        margin-bottom: 50px
+    }
+
+    body .pricing-mobile .plans .plan .body ul li {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 20px
+    }
+
+    body .pricing-mobile .plans .plan .body ul li span {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        margin-right: 15px
+    }
+
+    body .pricing-mobile .plans .plan .body ul li.positive span {
+        background: url("../images/icons/check.svg") center no-repeat;
+        background-size: contain
+    }
+
+    body .pricing-mobile .plans .plan .body ul li.negative span {
+        background: url("../images/icons/cancel.svg") center no-repeat;
+        background-size: contain
+    }
+
+    body .pricing-mobile .plans .plan .body ul li.content {
+        align-items: flex-start
+    }
+
+    body .pricing-mobile .plans .plan .body ul li.content span {
+        background-color: transparent;
+        font-weight: 600
+    }
+
+    body .pricing-mobile .plans .plan .body ul li p {
+        display: inline-block;
+        margin-bottom: 0
+    }
+
+    body .pricing-mobile .plans .plan .body a.btn-fill-md {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: .8em;
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+
+    body .why-pss {
+        padding: 20px;
+        padding-bottom: 100px;
+    }
+
+    body .ourInvestors {
+        padding-top: 100px;
+        ;
+    }
+
+    body .ourInvestors .investors .investor p {
+        font-size: 1.5em;
+    }
+
+    body .why-pss>*:not(.ourValues):not(.glootianCreed) .content {
+        grid-template-columns: 1fr;
+        grid-gap: 20px
+    }
+
+    body .why-pss>*:not(.ourValues):not(.glootianCreed) .content .text {
+        order: 2
+    }
+
+    body .why-pss>*:not(.ourValues):not(.glootianCreed) .content .image {
+        order: 1
+    }
+
+    body .why-pss>*:not(.ourValues):not(.glootianCreed) .content .image img {
+        max-width: 280px
+    }
+
+    body .why-pss .ourValues .content .values {
+        grid-template-columns: 1fr
+    }
+
+    body .why-pss .glootianCreed .content>p {
+        width: 100%
+    }
+
+    body .ourInvestors .investors {
+        flex-direction: column
+    }
+
+    body .ourInvestors .investors .investor {
+        width: 100%
+    }
+
+    body .ourInvestors .investors .investor:not(:last-child) {
+        border-right: 0
+    }
+
+    body .cta .left p:not(:first-child) {
+        font-size: 2.25em;
+        font-family: "Larsseit-Light", sans-serif;
+        margin-bottom: 1.5em;
+    }
+
+    body .cta .left p:first-child {
+        font-weight: 500;
+        font-family: "Larsseit", sans-serif;
+        color: #444971;
+        font-size: 3em;
+        letter-spacing: -0.5px;
+        line-height: 1.25;
+        margin-bottom: 0.5em;
+    }
+
+    body .pressSection {
+        padding: 80px 20px;
+    }
+
+    body .pressSection .pressGroup {
+        grid-template-columns: 1fr;
+        grid-gap: 20px
+    }
+
+    body .pressSection .pressGroup a {
+        color: #212121
+    }
+
+    body .pressSection .pressGroup a:hover {
+        text-decoration: none;
+        color: #212121
+    }
+
+    body .pressSection .pressGroup a .press {
+        padding: 1.5em;
+        border-radius: 5px
+    }
+
+    body .pressSection .pressGroup a .press .image {
+        margin-bottom: 1em
+    }
+
+    body .cta {
+        padding: 60px 20px;
+        grid-template-columns: 1fr
+    }
+}
+
+nav .menu-wrapper {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 999;
+}
+
+nav .menu-wrapper .menu {
+    cursor: pointer
+}
+
+nav .menu-wrapper .menu span {
+    display: block;
+    width: 2.5em;
+    height: .25em;
+    background: #0744DD;
+    width: 32px;
+    height: 4px;
+    background: #0744DD;
+    border-radius: 5px;
+}
+
+nav .menu-wrapper .menu span:not(:last-child) {
+    margin-bottom: .5em
+}
+
+/*# sourceMappingURL=styles.min.css.map */

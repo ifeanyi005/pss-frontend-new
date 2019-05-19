@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>2D4F6065-DB84-4837-A0DE-8DE3F339E48F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#45CB86" stop-opacity="0.25" offset="0%"></stop>
+            <stop stop-color="#45CB86" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="99.4200497%" y1="0%" x2="-1.1773699e-13%" y2="99.1501416%" id="linearGradient-2">
+            <stop stop-color="#45CB86" stop-opacity="0.75" offset="0%"></stop>
+            <stop stop-color="#45CB86" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Mockups" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage" transform="translate(-106.000000, -1697.000000)" fill-rule="nonzero">
+            <g id="div-features" transform="translate(0.000000, 1506.000000)">
+                <g id="growth-icon" transform="translate(106.000000, 191.000000)">
+                    <path d="M0,30 C0,13.43146 13.43146,0 30,0 C46.56854,0 60,13.43146 60,30 C60,46.56854 46.56854,60 30,60 C13.43146,60 0,46.56854 0,30 Z" id="SvgjsPath1108" fill="url(#linearGradient-1)"></path>
+                    <polygon id="SvgjsPath1112" fill="url(#linearGradient-2)" points="39.37 28 37.36 29.98 31.26 36.08 26.26 31.08 17 40.36 18.76 42.12 26.26 34.62 31.26 39.62 39.14 31.76 41.14 29.75"></polygon>
+                    <polygon id="SvgjsPath1116" fill="#45CB87" points="34.5 21 37.36 23.86 31.26 29.96 26.26 24.96 17 34.24 18.76 36 26.26 28.5 31.26 33.5 39.14 25.64 42 28.5 42 21"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

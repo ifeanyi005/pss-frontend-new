@@ -1,0 +1,125 @@
+// l* classes are visible by default
+.lv {
+    display: block !important;
+}
+.lgrid {
+    display: grid !important;
+}
+.lflex {
+    display: flex !important;
+}
+
+.lnone {
+    display: none;
+}
+
+
+
+// s* classes are not visible on by default
+.sv {
+    display: none !important;
+}
+.sgrid {
+    display: none !important;
+}
+.sflex {
+    display: none !important;
+}
+
+// xs* classes are not visible on by default
+.xsv {
+    display: none !important;
+}
+.xsgrid {
+    display: none !important;
+}
+.xsflex {
+    display: none !important;
+}
+
+.lxvflex {
+    display: none !important;
+}
+
+.none {
+    display: none !important;
+}
+
+// Small devices
+@include breakpoint(phabletNTablet) {
+    // l* classes are not visible on small devices
+    .lv {
+        display: none !important;
+    }
+    .lgrid {
+        display: none !important;
+    }
+    .lflex {
+        display: none !important;
+    }
+
+    // s* classes are visible on extra small devices
+    .sv {
+        display: block !important;
+    }
+    .sgrid {
+        display: grid !important;
+    }
+    .sflex {
+        display: flex !important;
+    }
+
+    .snone {
+        display: none !important;
+    }
+
+    // Special class visible on large screen and extra small screen
+    .lxvflex {
+        display: flex !important;
+    }
+}
+
+// Extra small devices
+@include breakpoint(mobile) {
+    // l* classes are not visible on extra small devices
+    .lv {
+        display: none !important;
+    }
+    .lgrid {
+        display: none !important;
+    }
+    .lflex {
+        display: none !important;
+    }
+
+    // s* classes are not visible on extra small devices
+    .sv {
+        display: none !important;
+    }
+    .sgrid {
+        display: none !important;
+    }
+    .sflex {
+        display: none !important;
+    }
+
+    // xs* classes are visible on extra small devices
+    .xsv {
+        display: block !important;
+    }
+    .xsgrid {
+        display: grid !important;
+    }
+    .xsflex {
+        display: flex !important;
+    }
+
+    .xsnone {
+        display: none !important;
+    }
+
+    // Special class visible on large screen and extra small screen
+    .lxvflex {
+        display: flex !important;
+    }
+}

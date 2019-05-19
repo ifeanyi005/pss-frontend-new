@@ -1,0 +1,2735 @@
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/Larsseit/Larsseit.eot");
+  src: url("../fonts/Larsseit/Larsseit.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Larsseit-Bold";
+  src: url("../fonts/Larsseit/Larsseit-Bold.eot");
+  src: url("../fonts/Larsseit/Larsseit-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Larsseit-Light";
+  src: url("../fonts/Larsseit/Larsseit-Light.eot");
+  src: url("../fonts/Larsseit/Larsseit-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Larsseit-Medium";
+  src: url("../fonts/Larsseit/Larsseit-Medium.eot");
+  src: url("../fonts/Larsseit/Larsseit-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Vaud";
+  src: url("../fonts/vaud/Vaud.otf");
+  src: url("../fonts/vaud/Vaud.otf") format("woff");
+}
+
+@font-face {
+  font-family: "Vaud Light";
+  src: url("../fonts/vaud/Vaud Light.otf");
+  src: url("../fonts/vaud/Vaud Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Vaud Medium";
+  src: url("../fonts/vaud/Vaud Medium.otf");
+  src: url("../fonts/vaud/Vaud Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Vaud SemiBold";
+  src: url("../fonts/vaud/Vaud SemiBold.otf");
+  src: url("../fonts/vaud/Vaud SemiBold.woff") format("woff");
+}
+
+.lv {
+  display: block !important;
+}
+
+.lgrid {
+  display: grid !important;
+}
+
+.lflex {
+  display: flex !important;
+  max-width: 1320px;
+}
+
+.lnone {
+  display: none;
+}
+
+.sv {
+  display: none !important;
+}
+
+.sgrid {
+  display: none !important;
+}
+
+.sflex {
+  display: none !important;
+}
+
+.xsv {
+  display: none !important;
+}
+
+.xsgrid {
+  display: none !important;
+}
+
+.xsflex {
+  display: none !important;
+}
+
+.lxvflex {
+  display: none !important;
+}
+
+@media (min-width: 36.9em) and (max-width: 69.9em) {
+  .lv {
+    display: none !important;
+  }
+
+  .lgrid {
+    display: none !important;
+  }
+
+  .lflex {
+    display: none !important;
+  }
+
+  .sv {
+    display: block !important;
+  }
+
+  .sgrid {
+    display: grid !important;
+  }
+
+  .sflex {
+    display: flex !important;
+  }
+
+  .snone {
+    display: none !important;
+  }
+
+  .lxvflex {
+    display: flex !important;
+  }
+}
+
+@media (max-width: 36.89em) {
+  .lv {
+    display: none !important;
+  }
+
+  .lgrid {
+    display: none !important;
+  }
+
+  .lflex {
+    display: none !important;
+  }
+
+  .sv {
+    display: none !important;
+  }
+
+  .sgrid {
+    display: none !important;
+  }
+
+  .sflex {
+    display: none !important;
+  }
+
+  .xsv {
+    display: block !important;
+  }
+
+  .xsgrid {
+    display: grid !important;
+  }
+
+  .xsflex {
+    display: flex !important;
+  }
+
+  .xsnone {
+    display: none !important;
+  }
+
+  .lxvflex {
+    display: flex !important;
+  }
+}
+
+.btn-fill-md {
+  border-radius: 50px;
+  background: #0744DD;
+  transition: color 0.25s ease;
+  color: #FFFFFF;
+  border: 1px solid #459034;
+  box-shadow: 0px 8px 16px 0px rgba(53, 133, 49, 0.2);
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.btn-fill-md:hover {
+  background-image: linear-gradient(7.69deg, #19754B 0%, #0744DD 100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+a.btn-fill-md {
+  color: #FFFFFF !important;
+}
+
+a.btn-fill-md:not(.navButton) {
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+a.btn-fill-md.navButton {
+  padding-top: .6em;
+  padding-bottom: .6em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+a.btn-fill-md:hover {
+  text-decoration: none;
+}
+
+.btn-fill-mdOutline {
+  border-radius: 5px;
+  background: none;
+  color: #0744DD;
+  border: 1px solid #0744DD;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.btn-fill-mdOutline:hover {
+  background: #0744DD;
+  color: #FFFFFF;
+}
+
+.largeButton {
+  padding: 15px 40px !important;
+}
+
+.pssCard {
+  background: #FFFFFF;
+  border-radius: 3px;
+  box-shadow: 0 18px 18px 0 rgba(10, 31, 68, 0.12), 0 0 1px 0 rgba(10, 31, 68, 0.1);
+  transition: 0.3s;
+}
+
+.pssCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.horizontal-rule-short {
+  display: inline-block;
+  background: #EEF4FA;
+  height: 1.5px;
+}
+
+ul.glooList {
+  padding: 0;
+}
+
+ul.glooList li {
+  list-style: none;
+  font-size: .9em;
+}
+
+ul.glooList li::before {
+  content: '';
+  display: inline-block;
+  height: 1.5em;
+  width: 1.5em;
+  background-size: 1.5em;
+  background-image: url("../images/gg1.svg");
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  background-position: center center;
+  vertical-align: middle;
+}
+
+.emailLink {
+  color: #0744DD;
+}
+
+.emailLink:hover {
+  color: #0744DD;
+}
+
+.formError {
+  margin-bottom: 20px;
+  display: none;
+  color: red;
+  font-size: 14px;
+}
+
+.showElement {
+  display: inline-block !important;
+}
+
+.invalidField {
+  margin-bottom: 0 !important;
+}
+
+.invalidField input,
+.invalidField textarea {
+  border-color: red !important;
+}
+
+.invalidField .field-placeholder {
+  color: red !important;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 9999999;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.99);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay li {
+  list-style: none;
+}
+
+.overlay li.dropDown {
+  cursor: pointer;
+}
+
+.overlay li.dropDown a {
+  color: #444971;
+}
+
+.overlay li.dropDown a:hover,
+.overlay li.dropDown a:focus {
+  color: #444971;
+}
+
+.overlay li.dropDown .dropDownContent a {
+  font-size: 16px;
+}
+
+.overlay a {
+  padding: 8px 0;
+  text-decoration: none;
+  font-size: 36px;
+  color: #444971;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover:not(.closebtn):not(.btn-fill-md),
+.overlay a:focus:not(.closebtn):not(.btn-fill-md) {
+  color: #0744DD;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.overlay-content {
+  position: relative;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  margin-top: 0;
+}
+
+body {
+  display: grid;
+  color: #444971;
+  font-family: "Vaud", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-size: 16px;
+}
+
+body>* {
+  padding-left: 6em;
+  padding-right: 6em;
+}
+
+body a {
+  color: #0744DD;
+}
+
+body header {
+  background: #F6F7F9 url("../images/gloo-stripes-bg.svg") no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+  padding-bottom: 6rem;
+}
+
+body header.single {
+  background-color: #FBFCFF;
+  padding-top: 2em;
+}
+
+body header.pricingHead {
+  height: 20em;
+  padding-bottom: 25em;
+}
+
+body header nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+body header nav .brand {
+  width: 20%;
+}
+
+body header nav .brand a img {
+  height: 1.8em;
+}
+
+body header nav .links {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-family: "Larsseit";
+}
+
+body header nav .links>* {
+  display: flex;
+  align-items: center;
+}
+
+body header nav .links>*:not(:last-child) {
+  margin-right: 2rem;
+}
+
+body header nav .links ul {
+  padding: 0;
+  margin: 0;
+}
+
+body header nav .links ul li {
+  display: inline-block;
+}
+
+body header nav .links ul li:hover>a {
+  text-decoration: none;
+  color: #0744DD;
+}
+
+body header nav .links ul li.activeLink>a {
+  color: #0744DD;
+}
+
+body header nav .links ul li:not(:last-child) {
+  margin-right: 3em;
+}
+
+body header nav .links ul li.dropdown .dropdown-menu {
+  box-shadow: 0px 8px 16px 0px rgba(53, 133, 49, 0.2);
+  border-radius: 5px;
+  border: 0;
+}
+
+body header nav .links ul li.dropdown .dropdown-menu>* {
+  padding: 1.5em;
+  padding-right: 3em;
+  cursor: pointer;
+}
+
+body header nav .links ul li.dropdown .dropdown-menu>*:active,
+body header nav .links ul li.dropdown .dropdown-menu>*:hover {
+  background: #0744DD;
+}
+
+body header nav .links ul li.dropdown .dropdown-menu>*:active a,
+body header nav .links ul li.dropdown .dropdown-menu>*:hover a {
+  color: #FFFFFF;
+}
+
+body header nav .links ul li.dropdown .dropdown-menu>*:last-child {
+  padding-top: .75em;
+}
+
+body header nav .links ul li.dropdown .dropdown-menu>*:not(:last-child) {
+  margin-right: 0;
+  padding-bottom: .75em;
+  border-bottom: 2px solid #F6F9FC;
+}
+
+body header nav .links ul li.dropdown .dropdown-menu>* p {
+  margin-bottom: 0;
+}
+
+body header nav .links ul li.dropdown .dropdown-menu>* p:first-child {
+  text-transform: uppercase;
+  font-size: .7em;
+}
+
+body header nav .links ul li.dropdown .dropdown-menu>* p:last-child {
+  font-size: 1.25em;
+}
+
+body header nav .links ul li a {
+  font-family: "Larsseit";
+  color: #444971;
+}
+
+body header .hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+  margin-top: 2em;
+}
+
+body header .hero.single {
+  display: flex;
+  flex-direction: column;
+  height: 45vh;
+  align-items: center;
+  justify-content: center;
+}
+
+body header .hero.single .content {
+  width: 60%;
+  text-align: center;
+  background: url("../images/dotsBackground.png") center center no-repeat;
+  background-size: cover;
+}
+
+body header .hero.single .content h1 {
+  color: #444971;
+  font-family: "Larsseit-Bold";
+  font-size: 3em;
+  background-image: url("../images/dotsBackground.png") top right no-repeat;
+}
+
+body header .hero.single .content p {
+  font-size: 1.35em;
+  padding: 0 3em;
+}
+
+body header .hero.single .content a {
+  font-size: 1.35em;
+  color: #0744DD;
+}
+
+body header .hero>* {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body header .hero .left .title p {
+  display: none;
+  font-family: "Larsseit-Medium";
+  font-size: 1em;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: .25em .75em;
+  color: #444971;
+  background: rgba(79, 146, 33, 0.200000003);
+  border-radius: .25em;
+}
+
+body header .hero .left h1 {
+  font-family: "Larsseit-Bold";
+  color: #444971;
+  font-size: 3em;
+}
+
+body header .hero .left>p:last-of-type {
+  font-size: .9em;
+}
+
+body header .hero .left .links {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+body header .hero .left .links>*:first-child {
+  margin-right: 1.5em;
+}
+
+body header .hero .left .links a {
+  color: #0744DD;
+}
+
+body header .hero .left .brands .heading {
+  text-transform: uppercase;
+  font-size: .9em;
+  color: #444971;
+  margin-bottom: .9em;
+}
+
+body header .hero .left .brands .content {
+  display: flex;
+  flex-direction: row;
+}
+
+body header .hero .left .brands .content .brand:not(:last-child) {
+  margin-right: .9em;
+}
+
+body header .hero .left .brands .content .brand img {
+  height: 1.5em;
+}
+
+body header .hero .right img {
+  width: 100%;
+}
+
+body .description {
+  display: grid;
+  background: #f4f7f9;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+body .description .top {
+  margin-bottom: 1.25em;
+}
+
+body .description .top h2 {
+  color: #444971;
+  font-size: 2.5em;
+  font-family: "Larsseit-Medium";
+}
+
+body .description .top p {
+  font-size: 1.5em;
+}
+
+body .description .bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-gap: 3em;
+}
+
+body .description .bottom .left img {
+  width: 100%;
+}
+
+body .description .bottom .right {
+  font-size: 1.25em;
+}
+
+body .description .bottom .right p:first-child {
+  color: #444971;
+  font-family: "Larsseit-Medium";
+}
+
+body .features {
+  display: grid;
+  background: #FBFCFF;
+  padding: 6em;
+}
+
+body .features .heading {
+  color: #444971;
+  margin-bottom: 1em;
+  font-family: "Larsseit-Bold";
+  font-size: 3em;
+}
+
+body .features .body {
+  margin-bottom: 3em;
+}
+
+body .features .body>*:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+body .features .body>*:nth-child(even)>.image {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+body .features .body .feature {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3em;
+  align-items: center;
+}
+
+body .features .body .feature .content .image {
+  margin-bottom: 1em;
+}
+
+body .features .body .feature .content h3 {
+  color: #444971;
+  font-family: "Larsseit-Medium";
+  font-size: 2.5em;
+}
+
+body .features .body .feature .content p {
+  font-size: 1.5em;
+}
+
+body .features .body .feature>.image img {
+  width: 60%;
+}
+
+body .features .bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body .features .bottom a {
+  padding: 10px 60px;
+}
+
+body .testimonial {
+  background: #F6F8FD;
+  padding: 6em;
+  display: grid;
+  font-size: .9em;
+}
+
+body .testimonial .heading {
+  color: #444971;
+  margin-bottom: 1em;
+  font-family: "Larsseit-Medium";
+  font-size: 3em;
+}
+
+body .testimonial .testimonial-body {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2em;
+}
+
+body .testimonial .testimonial-body>*:not(:last-child) {
+  margin-right: 1.5em;
+}
+
+body .testimonial .testimonial-body .testimony {
+  padding: 2em;
+}
+
+body .testimonial .testimonial-body .testimony>*:not(:last-child) {
+  margin-bottom: 1.25em;
+}
+
+body .testimonial .testimonial-body .testimony .brandLogo img {
+  max-height: 1.5em;
+}
+
+body .testimonial .testimonial-body .testimony .bottom {
+  display: flex;
+  align-items: center;
+}
+
+body .testimonial .testimonial-body .testimony .bottom .image {
+  height: 3.5em;
+  width: 3.5em;
+  margin-right: 1em;
+  border-radius: 50%;
+}
+
+body .testimonial .testimonial-body .testimony .bottom .image.tobi {
+  background: url("../images/tobi.png") no-repeat;
+  background-size: contain;
+}
+
+body .testimonial .testimonial-body .testimony .bottom .image.onah {
+  background: url("../images/onah.png") no-repeat;
+  background-size: contain;
+}
+
+body .testimonial .testimonial-body .testimony .bottom .profileDetail p {
+  margin-bottom: 0;
+}
+
+body .testimonial .testimonial-body .testimony .bottom .profileDetail p:first-child {
+  font-size: 1.35em;
+}
+
+body .testimonial .testimonial-body .testimony .bottom .profileDetail p:last-child {
+  font-size: .9em;
+}
+
+body .testimonial .controls {
+  display: grid;
+  grid-template-columns: repeat(5, 5em);
+  grid-gap: .5em;
+}
+
+body .testimonial .controls .control {
+  height: .5em;
+  background: #CAD4D9;
+}
+
+body .testimonial .controls .control.active {
+  background: #277D3F;
+}
+
+body .brandsSection {
+  padding: 6em;
+  padding-top: 0;
+  background: #F6F8FD;
+  background-image: linear-gradient(180deg, #F6F8FD 0%, #FFFFFF 100%);
+  display: flex;
+  flex-direction: column;
+}
+
+body .brandsSection>*:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+body .brandsSection .hr-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+
+body .brandsSection .horizontal-rule-short {
+  width: 80%;
+}
+
+body .brandsSection .heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body .brandsSection .heading p {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+body .brandsSection .heading p span:first-child {
+  text-transform: uppercase;
+  color: #444971;
+  font-family: "Larsseit-Medium";
+  font-size: 1.75em;
+}
+
+body .brandsSection .heading p span:last-child {
+  font-size: 1.25em;
+}
+
+body .brandsSection .brandList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+body .brandsSection .brandList>*:not(:last-child) {
+  margin-right: 4em;
+}
+
+body .brandsSection .brandList .brand img {
+  max-width: 7em;
+}
+
+body .brandsSection .bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body .brandsSection .bottom .links {
+  margin-bottom: 1em;
+}
+
+body .brandsSection .bottom .links>*:first-child {
+  margin-right: 2em;
+}
+
+body .brandsSection .bottom .links a {
+  color: #0744DD;
+  font-family: "Larsseit-Medium";
+}
+
+body .brandsSection .bottom .links a.btn-fill-md {
+  padding: 10px 60px;
+}
+
+body .brandsSection .bottom p:last-child {
+  color: #444971;
+  font-size: .8em;
+}
+
+body .afterBS {
+  background: #F6F9FC;
+  margin-bottom: 3em;
+}
+
+body .certifications {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6em;
+}
+
+body .certifications .heading {
+  text-align: center;
+  font-family: "Larsseit-Bold";
+  font-size: 2.5em;
+  color: #444971;
+  margin-bottom: 2em;
+}
+
+body .certifications .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+body .certifications .content>*:not(:last-child) {
+  margin-right: 3em;
+}
+
+body .certifications .content .certification {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body .certifications .content .certification .certLogo {
+  height: 5em;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+body .certifications .content .certification .certLogo img {
+  max-height: 5em;
+  max-width: 10em;
+  margin-bottom: 1.5em;
+}
+
+body .featured {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6em;
+  padding-top: 2em;
+}
+
+body .featured>*:first-child {
+  margin-right: 3em;
+}
+
+body .featured .heading {
+  font-family: "Larsseit-Medium";
+  text-transform: uppercase;
+  color: #586F7F;
+}
+
+body .featured .brandList {
+  display: flex;
+  flex-direction: row;
+}
+
+body .featured .brandList>*:not(:last-child) {
+  margin-right: 3em;
+}
+
+body .featured .brandList .brand img {
+  max-width: 10em;
+}
+
+body footer {
+  background: #F6F8FD;
+  color: #53627C;
+  padding: 3em 6em;
+  display: grid;
+  grid-template-columns: 1.5fr repeat(4, 1fr);
+  grid-gap: 2em;
+}
+
+body footer h6 {
+  text-transform: uppercase;
+  color: #444971;
+  font-family: "Larsseit-Medium";
+  font-size: 1.25em;
+  margin-bottom: 1em;
+}
+
+body footer ul {
+  padding: 0;
+}
+
+body footer ul li {
+  list-style-type: none;
+}
+
+body footer .about img {
+  margin-bottom: 1em;
+}
+
+body footer .about p:first-of-type {
+  font-size: .8em;
+}
+
+body footer .about p:nth-of-type(2) {
+  font-size: .8em;
+}
+
+body footer .links ul li {
+  margin-bottom: .8em;
+  font-size: 1em;
+}
+
+body footer .links ul li a {
+  color: #53627C;
+}
+
+body footer .contact-us p {
+  font-size: 1em;
+}
+
+body footer .contact-us p.telephone {
+  text-transform: uppercase;
+}
+
+body footer .contact-us .social-links {
+  display: flex;
+  flex-direction: row;
+}
+
+body footer .contact-us .social-links>*:not(:last-child) {
+  margin-right: 2em;
+}
+
+body footer .contact-us .social-links .social-icons {
+  width: 20px;
+  height: 20px;
+  background: #212121;
+  cursor: pointer;
+}
+
+body footer .contact-us .social-links .social-icons.twitter {
+  background: url("../images/icons/twitter.svg") center bottom no-repeat;
+}
+
+body footer .contact-us .social-links .social-icons.linkedin {
+  background: url("../images/icons/linkedin.svg") center bottom no-repeat;
+}
+
+body footer .contact-us .social-links .social-icons.medium {
+  background: url("../images/icons/medium.svg") center bottom no-repeat;
+}
+
+body .description-mediumEnterprise {
+  background: #f4f7f9;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+body .description-mediumEnterprise .top {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+body .description-mediumEnterprise .top h2 {
+  font-family: "Larsseit-Medium";
+  font-size: 2.5em;
+  color: #444971;
+}
+
+body .description-mediumEnterprise .bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+  align-items: center;
+}
+
+body .description-mediumEnterprise .bottom .left h3 {
+  font-family: "Larsseit-Bold";
+  font-size: 1.5em;
+  color: #444971;
+  margin-bottom: 1em;
+}
+
+body .description-mediumEnterprise .bottom .left p {
+  font-size: 1.2em;
+}
+
+body .description-mediumEnterprise .bottom .right img {
+  height: 25em;
+}
+
+body .features-mediumEnterprise {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3em;
+  background: #FBFCFF;
+  padding: 6em;
+}
+
+body .features-mediumEnterprise .feature img {
+  margin-bottom: 1em;
+}
+
+body .features-mediumEnterprise .feature h3 {
+  color: #444971;
+  font-size: 1.5em;
+  font-family: "Larsseit-Bold";
+  margin-bottom: 1rem;
+}
+
+body .features-mediumEnterprise .feature p {
+  margin-bottom: 0;
+  font-size: 1.1em;
+}
+
+body .description-largeEnterprise {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5em;
+  padding: 6em;
+  background: #F6F7F9;
+}
+
+body .description-largeEnterprise>* h2 {
+  font-family: "Larsseit";
+  font-size: 2.75em;
+  color: #444971;
+}
+
+body .description-largeEnterprise>* p {
+  font-size: 1.5em;
+}
+
+body .description-largeEnterprise>* ul {
+  padding: 0;
+}
+
+body .description-largeEnterprise>* ul li {
+  font-size: 1.25em;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+}
+
+body .description-largeEnterprise>* ul li:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+body .description-largeEnterprise>* ul li span:first-child {
+  height: 1.5em;
+  width: 1.5em;
+  background-size: 1.5em;
+  background-image: url("../images/gg1.svg");
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  background-position: center center;
+  vertical-align: middle;
+}
+
+body .description-largeEnterprise>*:first-child {
+  padding-right: 5em;
+  border-right: 1px solid #D8D8D8;
+}
+
+body .erpIntegration {
+  background: #FBFCFF;
+  padding: 6em;
+}
+
+body .erpIntegration .top {
+  width: 65%;
+}
+
+body .erpIntegration .top h2 {
+  font-family: "Larsseit-Medium";
+  color: #444971;
+  font-size: 2.5em;
+}
+
+body .erpIntegration .top p {
+  font-size: 1.6em;
+}
+
+body .erpIntegration .brands {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+body .erpIntegration .brands>*:not(:last-child) {
+  margin-right: 3em;
+}
+
+body .procurementSimplified {
+  padding: 6em;
+}
+
+body .procurementSimplified .top {
+  margin-bottom: 2em;
+}
+
+body .procurementSimplified .top h2 {
+  font-family: "Larsseit-Medium";
+  color: #444971;
+  font-size: 2.5em;
+}
+
+body .procurementSimplified .bottom {
+  display: grid;
+  grid-gap: 3em;
+  grid-template-columns: 1fr 2fr;
+}
+
+body .procurementSimplified .bottom .left .content {
+  border-bottom: 2px solid #F6F9FC;
+}
+
+body .procurementSimplified .bottom .left .content:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+body .procurementSimplified .bottom .left .content h3 {
+  font-family: "Larsseit-Medium";
+  color: #444971;
+  font-size: 1.75em;
+}
+
+body .procurementSimplified .bottom .left .content.click h3 {
+  color: #0744DD;
+}
+
+body .procurementSimplified .bottom .left .content.click h3::before {
+  content: url(../images/icons/right-chevron.svg);
+  display: inline-block;
+  margin-right: 5px;
+}
+
+body .gallery {
+  padding: 0;
+  background: #FFFFFF;
+}
+
+body .gallery>* {
+  display: grid;
+  grid-gap: .4em;
+  margin-left: .4em;
+  margin-right: .4em;
+}
+
+body .gallery>*>* {
+  height: 15em;
+}
+
+body .gallery .top {
+  grid-template-columns: 2fr 1.5fr 2fr;
+  margin-top: .4em;
+  margin-bottom: .4em;
+}
+
+body .gallery .top>*:first-child {
+  background: url("../images/team/team-1.jpg") center no-repeat;
+  background-size: cover;
+}
+
+body .gallery .top>*:nth-child(2) {
+  background: url("../images/team/team-2.jpg") center no-repeat;
+  background-size: cover;
+}
+
+body .gallery .top>*:nth-child(3) {
+  background: url("../images/team/team-3.jpg") center no-repeat;
+  background-size: cover;
+}
+
+body .gallery .bottom {
+  grid-template-columns: 1.5fr repeat(2, 2fr);
+  margin-bottom: .4em;
+}
+
+body .gallery .bottom>*:first-child {
+  background: url("../images/team/team-4.jpg") center no-repeat;
+  background-size: cover;
+}
+
+body .gallery .bottom>*:nth-child(2) {
+  background: url("../images/team/team-5.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+body .gallery .bottom>*:nth-child(3) {
+  background: url("../images/team/team-6.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+body .description-careers {
+  background: #FBFCFF;
+  padding: 6em 20em;
+  text-align: center;
+}
+
+body .description-careers h3,
+body .description-careers h4 {
+  color: #444971;
+  font-family: "Larsseit-Bold";
+  margin-bottom: 2rem;
+}
+
+body .description-careers h3 {
+  font-size: 3.25em;
+}
+
+body .description-careers h4 {
+  padding-left: .8em;
+}
+
+body .description-careers p {
+  font-size: 1.2em;
+}
+
+body .job-openings {
+  background: #F4F7F9;
+  padding: 6em;
+}
+
+body .job-openings .heading {
+  font-size: 3.25em;
+  font-family: "Larsseit-Bold";
+  color: #444971;
+  margin-bottom: 1em;
+}
+
+body .job-openings .content .job {
+  padding: 1.5em 0;
+  border-bottom: .15em solid #E1E4E8;
+}
+
+body .job-openings .content .job>*>* {
+  display: flex;
+  flex-direction: row;
+}
+
+body .job-openings .content .job>*>*>*:last-child {
+  flex-grow: 1;
+  text-align: right;
+}
+
+body .job-openings .content .job .collapseControl>* {
+  cursor: pointer;
+  color: #444971;
+}
+
+body .job-openings .content .job .collapseControl>*.collapsed>* {
+  margin-bottom: 0;
+}
+
+body .job-openings .content .job .collapseControl>*:not(.collapsed) {
+  color: #0744DD;
+}
+
+body .job-openings .content .job .collapseControl>*:not(.collapsed) p::after {
+  background-image: url("../images/icons/up-chevron.svg");
+}
+
+body .job-openings .content .job .collapseControl>* h4 {
+  font-family: "Larsseit-Medium";
+}
+
+body .job-openings .content .job .collapseControl>* p {
+  color: #444971;
+}
+
+body .job-openings .content .job .collapseControl>* p::after {
+  content: '';
+  display: inline-block;
+  height: .8em;
+  width: .8em;
+  background-size: .8em;
+  background-image: url("../images/icons/down-chevron.svg");
+  background-repeat: no-repeat;
+  margin-left: .5em;
+  background-position: center center;
+  vertical-align: middle;
+}
+
+body .job-openings .content .job .collapseContent p {
+  margin-bottom: 0;
+}
+
+body .job-openings .content .job .collapseContent p:first-child {
+  color: #0744DD;
+}
+
+body .job-openings .content .job .collapseContent p:not(:first-child) {
+  color: #444971;
+}
+
+body .faqs {
+  background: #F4F7F9;
+  padding: 6em;
+}
+
+body .faqs .faqs-section {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  grid-gap: 5em;
+}
+
+body .faqs .faqs-section:not(:last-child) {
+  border-bottom: .15em solid #E1E4E8;
+  margin-bottom: 2em;
+}
+
+body .faqs .faqs-section .heading {
+  text-align: right;
+  color: #444971;
+  font-family: "Larsseit-Medium";
+  font-size: 2.5em;
+}
+
+body .faqs .faqs-section .content .question-container {
+  margin-bottom: 2em;
+}
+
+body .faqs .faqs-section .content .question-container .question p {
+  color: #0744DD;
+  font-family: "Larsseit-Medium";
+  font-size: 1.25em;
+  margin-bottom: .5em;
+}
+
+body .contactAndForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 6em;
+  padding: 3em 6em;
+  background: #F4F7F9;
+}
+
+body .contactAndForm input:focus,
+body .contactAndForm select:focus,
+body .contactAndForm textarea:focus,
+body .contactAndForm button:focus {
+  outline: none;
+}
+
+body .contactAndForm .left {
+  background: #FFFFFF;
+  box-shadow: 0 18px 18px 0 rgba(10, 31, 68, 0.12), 0 0 1px 0 rgba(10, 31, 68, 0.1);
+  padding: 2em;
+}
+
+body .contactAndForm .left h5 {
+  font-family: "Larsseit-Medium";
+  font-size: 1.5em;
+  color: #444971;
+}
+
+body .contactAndForm .left p {
+  font-size: 1.15em;
+}
+
+body .contactAndForm .right {
+  align-self: center;
+}
+
+body .contactAndForm .right p {
+  color: #444971;
+}
+
+body .contactAndForm .right p:first-child {
+  font-family: "Larsseit-Medium";
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+body .contactAndForm .right p a {
+  color: #0744DD;
+}
+
+body .pricing {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background: #F5F9FC;
+}
+
+body .pricing .pricingTable {
+  display: grid;
+  grid-template-columns: 1.25fr repeat(4, 1fr);
+}
+
+body .pricing .pricingTable>*>* {
+  height: 3.5em;
+}
+
+body .pricing .pricingTable>* .pTableHead {
+  height: 10em;
+  padding: 1em;
+}
+
+body .pricing .pricingTable>* .yearlyPrice {
+  height: 4em;
+}
+
+body .pricing .pricingTable>*:first-child p,
+body .pricing .pricingTable>*:first-child h4 {
+  font-size: 1.1em;
+}
+
+body .pricing .pricingTable>*:first-child>* {
+  padding-left: 3em;
+}
+
+body .pricing .pricingTable>*:first-child>*>*:last-child {
+  margin-bottom: 0;
+}
+
+body .pricing .pricingTable>*:first-child>*:not(.pTableHead) {
+  background: #E8F0F7;
+  padding: 1em;
+  padding-left: 2em;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.15);
+}
+
+body .pricing .pricingTable>*:first-child>*:not(.pTableHead) p,
+body .pricing .pricingTable>*:first-child>*:not(.pTableHead) h4 {
+  margin-bottom: 0;
+}
+
+body .pricing .pricingTable>*:first-child .pTableHead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body .pricing .pricingTable>*:first-child .pTableHead .radioGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.1em;
+}
+
+body .pricing .pricingTable>*:first-child .pTableHead .radioGroup input[type="radio"] {
+  border: 0px;
+  width: 10%;
+  height: 1em;
+  margin-right: 5px;
+  color: #0744DD;
+}
+
+body .pricing .pricingTable>*:first-child .pTableHead .radioGroup label {
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+body .pricing .pricingTable>*:first-child .featuresHead h4 {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-family: "Larsseit-Medium";
+}
+
+body .pricing .pricingTable>*:not(:first-child) {
+  background: #F0F6FE;
+  background-image: linear-gradient(-180deg, #F0F6FE, #ffffff);
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.15);
+}
+
+body .pricing .pricingTable>*:not(:first-child)>*:not(.pTableHead) {
+  background: #FFFFFF;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body .pricing .pricingTable>*:not(:first-child) .pTableHead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body .pricing .pricingTable>*:not(:first-child) .pTableHead h4 {
+  font-family: "Larsseit-Medium";
+  font-size: 1.75em;
+  color: #0744DD;
+  margin-bottom: .5em;
+}
+
+body .pricing .pricingTable>*:not(:first-child) .pTableHead button {
+  padding: .5em 1em;
+  width: auto;
+  margin-bottom: .25em;
+}
+
+body .pricing .pricingTable>*:not(:first-child) .pTableHead p {
+  color: #444971;
+}
+
+body .pricing .pricingTable>*:not(:first-child) .yearlyPrice {
+  background: #FFFFFF;
+  border-top-left-radius: .5em;
+  border-top-right-radius: .5em;
+  text-align: center;
+}
+
+body .pricing .pricingTable>*:not(:first-child) .yearlyPrice>* {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+body .pricing .pricingTable>*:not(:first-child) .yearlyPrice p {
+  font-family: "Larsseit-Medium";
+  font-size: 2.5em;
+  color: #444971;
+}
+
+body .pricing .pricingTable>*:not(:first-child) .yearlyPrice p sup,
+body .pricing .pricingTable>*:not(:first-child) .yearlyPrice p sub {
+  font-size: .35em;
+  vertical-align: baseline;
+  position: relative;
+  top: -1em;
+}
+
+body .pricing .pricingTable>*:not(:first-child) .yearlyPrice p sub {
+  top: 0;
+}
+
+body .pricing .pricingTable .premium {
+  margin-top: -10px;
+  margin-bottom: -30px;
+  z-index: 2;
+}
+
+body .pricing .pricingTable .premium .pTableHead {
+  margin-top: 10px;
+}
+
+body .stores {
+  padding: 6em;
+  background: #F5F9FC;
+}
+
+body .stores h2.sectionTitle {
+  text-align: center;
+  color: #444971;
+  font-family: "Larsseit-Medium";
+  font-size: 2.5em;
+  margin-bottom: 1.5em;
+}
+
+body .stores .brands {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5em;
+}
+
+body .stores .brands .customer {
+  padding: 2em;
+}
+
+body .stores .brands .customer .image {
+  height: 3em;
+  margin-bottom: 1em;
+}
+
+body .stores .brands .customer .image img {
+  max-width: 12em;
+  max-height: 4em;
+}
+
+body .description-presskit {
+  background: #FBFCFF;
+  padding: 6em;
+  padding-bottom: 3em;
+}
+
+body .description-presskit .sectionTitle {
+  font-family: "Larsseit-Medium";
+  font-size: 2.5em;
+  color: #444971;
+  margin-bottom: 1em;
+}
+
+body .description-presskit .descriptionGroup {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10em;
+}
+
+body .description-presskit .descriptionGroup>* h4 {
+  color: #444971;
+  font-family: "Larsseit-Medium";
+  font-size: 1.1em;
+}
+
+body .description-presskit .descriptionGroup>* p {
+  font-size: 1.25em;
+}
+
+body .assets {
+  padding: 6em;
+  padding-top: 3em;
+  background: #FBFCFF;
+}
+
+body .assets .sectionTitle {
+  font-family: "Larsseit-Medium";
+  font-size: 2.5em;
+  color: #444971;
+  margin-bottom: 1em;
+}
+
+body .assets .body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+}
+
+body .assets .body>* {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10em;
+}
+
+body .assets .body>* .left h4 {
+  color: #444971;
+  font-family: "Larsseit-Medium";
+  font-size: 1.1em;
+}
+
+body .assets .body>* .left p {
+  font-size: 1.25em;
+}
+
+body .assets .body>* .right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+}
+
+body .assets .body>* .right .logo .image {
+  height: 8.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+body .assets .body>* .right .logo .image.light {
+  background: #EEEEEE;
+}
+
+body .assets .body>* .right .logo .image.dark {
+  background: #3B862F;
+}
+
+body .assets .body>* .right .logo .image img {
+  height: 2.75em;
+}
+
+body .why-pss {
+  padding: 6em;
+  background: #FBFCFF;
+}
+
+body .why-pss>*:not(:last-child) {
+  margin-bottom: 4em;
+}
+
+body .why-pss>*:not(.ourValues):not(.ourMotto) .content {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  grid-gap: 20em;
+}
+
+body .why-pss>*:not(.ourValues):not(.ourMotto) .content .left p:first-child {
+  font-family: "Larsseit-Medium";
+  color: #444971;
+  font-size: 1.5em;
+}
+
+body .why-pss>*:not(.ourValues):not(.ourMotto) .content .left p:not(:first-child) {
+  font-size: 1.25em;
+}
+
+body .why-pss>*:not(.ourValues):not(.ourMotto) .content .right .point p span {
+  display: block;
+}
+
+body .why-pss>*:not(.ourValues):not(.ourMotto) .content .right .point p span:first-child {
+  font-family: "Larsseit-Medium";
+  font-size: 3em;
+  color: #444971;
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+body .why-pss>*:not(.ourValues):not(.ourMotto) .content .right .point p span:last-child {
+  font-size: 1.25em;
+}
+
+body .why-pss>* .sectionTitle {
+  font-family: "Larsseit-Medium";
+  font-size: 2.5em;
+  color: #444971;
+}
+
+body .why-pss .ourValues .content>p,
+body .why-pss .ourMotto .content>p {
+  color: #444971;
+  font-family: "Larsseit-Medium";
+  font-size: 1.5em;
+  width: 60%;
+  margin-bottom: 1em;
+}
+
+body .why-pss .ourValues .content .glootianCreed {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 4em;
+}
+
+body .why-pss .ourValues .content .glootianCreed .creed img {
+  margin-bottom: 1em;
+}
+
+body .why-pss .ourValues .content .glootianCreed .creed h6 {
+  color: #444971;
+  font-weight: 600;
+  font-size: 1.25em;
+  margin-bottom: 0;
+}
+
+body .why-pss .ourValues .content .glootianCreed .creed p {
+  font-size: 1.25em;
+}
+
+body .ourInvestors {
+  padding: 6em;
+  background: #F6F8FD;
+}
+
+body .ourInvestors .sectionTitle {
+  font-family: "Larsseit-Medium";
+  font-size: 2.5em;
+  color: #444971;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+body .ourInvestors .investors {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+body .ourInvestors .investors .investor {
+  width: 20em;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body .ourInvestors .investors .investor:not(:last-child) {
+  border-right: 1px solid #ECEEF9;
+}
+
+body .ourInvestors .investors .investor .image {
+  height: 6em;
+}
+
+body .ourInvestors .investors .investor .image img {
+  max-height: 4em;
+}
+
+body .ourInvestors .investors .investor p {
+  font-size: 1.15em;
+  font-weight: 600;
+  color: #444971;
+}
+
+body .pressSection {
+  padding: 6em;
+}
+
+body .pressSection .sectionTitle {
+  font-family: "Larsseit-Medium";
+  font-size: 2.5em;
+  color: #444971;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+body .pressSection .pressGroup {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+}
+
+body .pressSection .pressGroup a {
+  color: #212121;
+}
+
+body .pressSection .pressGroup a:hover {
+  text-decoration: none;
+  color: #212121;
+}
+
+body .pressSection .pressGroup a .press {
+  padding: 1.5em;
+  border-radius: 5px;
+}
+
+body .pressSection .pressGroup a .press .image {
+  margin-bottom: 1em;
+}
+
+body .cta {
+  background: #F6F8FD;
+  padding: 6em;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  align-items: center;
+}
+
+body .cta .left p:first-child {
+  font-size: 2.25em;
+  font-weight: 600;
+  color: #444971;
+  margin-bottom: 0;
+}
+
+body .cta .left p:not(:first-child) {
+  font-size: 1.5em;
+}
+
+@media (min-width: 36.9em) and (max-width: 69.9em) {
+  body {
+    font-size: 12px;
+  }
+
+  body>* {
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+
+  body header .hero .left h1 {
+    font-size: 2em;
+  }
+
+  body .description .top h2 {
+    font-size: 2em;
+  }
+
+  body .testimonial .heading {
+    font-size: 2em;
+  }
+
+  body .brandsSection .brandList .brand img {
+    width: 6em;
+  }
+
+  body .featured>*:first-child {
+    margin-right: 2em;
+  }
+
+  body .featured .brandList .brand:not(:last-child) {
+    margin-right: 2em;
+  }
+
+  body .featured .brandList .brand img {
+    max-width: 5.5em;
+  }
+
+  body footer {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  body footer .about img {
+    width: 8em;
+  }
+
+  body .description-careers {
+    padding: 6em 10em;
+  }
+
+  body .stores .brands {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  body .stores .brands .customer .image {
+    height: 1em;
+  }
+
+  body .stores .brands .customer .image img {
+    max-width: 6em;
+    max-height: 1.5em;
+  }
+
+  body .description-largeEnterprise {
+    padding: 3em 4em;
+    grid-gap: 3em;
+    padding: 3em;
+  }
+
+  body .description-largeEnterprise>* p {
+    font-size: 1.25em;
+  }
+
+  body .description-largeEnterprise>* ul li {
+    font-size: 1em;
+  }
+
+  body .erpIntegration .top {
+    width: 100%;
+  }
+
+  body .erpIntegration .brands img {
+    max-height: 2.5em;
+  }
+
+  body .erpIntegration .brands img:not(:last-child) {
+    margin-right: 1em;
+  }
+
+  body .procurementSimplified .bottom {
+    grid-template-columns: 1fr;
+  }
+
+  body .procurementSimplified .bottom .left {
+    order: 2;
+  }
+
+  body .procurementSimplified .bottom .right {
+    order: 1;
+  }
+
+  body .procurementSimplified .bottom .right img {
+    width: 90%;
+  }
+
+  body .contactAndForm {
+    grid-template-columns: 1fr;
+  }
+
+  body .contactAndForm .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 36.89em) {
+  body {
+    font-size: 10px;
+  }
+
+  body>* {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  body header {
+    grid-template-rows: 1fr 10fr;
+    background-position: center center;
+  }
+
+  body header.single {
+    padding: 2em;
+    height: auto;
+    padding-bottom: 0;
+  }
+
+  body header .hero {
+    grid-template-columns: 1fr;
+    grid-gap: 5em;
+    padding-bottom: 5em;
+  }
+
+  body header .hero.single {
+    padding: 0;
+    height: auto;
+    padding: 10em 2em;
+    padding-top: 5em;
+  }
+
+  body header .hero.single .content {
+    width: 100%;
+  }
+
+  body header .hero .left .title p {
+    font-size: 1.25em;
+  }
+
+  body header .hero .left h1 {
+    font-size: 3.5em;
+  }
+
+  body header .hero .left>p:first-of-type {
+    font-size: 1.5em;
+  }
+
+  body header .hero .left>p:nth-of-type(2) {
+    font-size: 1.25em;
+  }
+
+  body header .hero .left .links {
+    margin-bottom: 25px;
+  }
+
+  body header .hero .left .links>*:first-child {
+    margin-right: 1.5em;
+  }
+
+  body header .hero .left .links button {
+    font-size: 1.5em;
+  }
+
+  body header .hero .left .links a {
+    font-size: 1.5em;
+    color: #0744DD;
+  }
+
+  body header .hero .left .brands .content .brand img {
+    height: 20px;
+  }
+
+  body .description .top h2 {
+    font-size: 3em;
+  }
+
+  body .description .top p {
+    font-size: 1.8em;
+  }
+
+  body .description .bottom {
+    grid-template-columns: 1fr;
+  }
+
+  body .description .bottom .right p:first-child {
+    font-size: 1.5em;
+  }
+
+  body .description .bottom .right ul.glooList {
+    font-size: 1.25em;
+    line-height: 2;
+  }
+
+  body .features {
+    padding: 6em 2em;
+  }
+
+  body .features .heading {
+    font-size: 4em;
+  }
+
+  body .features .body>*:nth-child(even) {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+
+  body .features .body>*:nth-child(even)>.image {
+    align-items: flex-start;
+  }
+
+  body .features .body .feature {
+    grid-template-columns: 1fr;
+  }
+
+  body .features .body .feature .content .image img {
+    max-height: 5em;
+  }
+
+  body .features .body .feature .content h3 {
+    font-size: 3.5em;
+  }
+
+  body .features .body .feature .content p {
+    font-size: 1.8em;
+  }
+
+  body .features .body .feature>.image img {
+    width: 80%;
+  }
+
+  body .testimonial {
+    padding: 6em 2em;
+  }
+
+  body .testimonial .testimonial-body {
+    flex-direction: column;
+  }
+
+  body .testimonial .testimonial-body>*:not(:last-child) {
+    margin-right: 0;
+  }
+
+  body .testimonial .testimonial-body>*:not(:last-child) {
+    margin-bottom: 1.5em;
+  }
+
+  body .testimonial .testimonial-body .testimony {
+    padding: 3em;
+  }
+
+  body .testimonial .testimonial-body .testimony .content p {
+    font-size: 1.5em;
+  }
+
+  body .brandsSection .heading p span:first-child {
+    font-size: 2em;
+  }
+
+  body .brandsSection .heading p span:nth-child(2) {
+    font-size: 1.5em;
+  }
+
+  body .brandsSection .brandList {
+    flex-wrap: wrap;
+  }
+
+  body .brandsSection .brandList>*:not(:last-child) {
+    margin-right: 2em;
+  }
+
+  body .brandsSection .brandList .brand {
+    margin-bottom: 2em;
+  }
+
+  body .brandsSection .brandList .brand img {
+    max-width: 8.5em;
+  }
+
+  body .brandsSection .bottom .links {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  body .brandsSection .bottom .links a {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+  }
+
+  body .brandsSection .bottom .links>*:first-child {
+    margin-right: 0;
+  }
+
+  body .brandsSection .bottom p:last-child {
+    font-size: 1em;
+  }
+
+  body .certifications {
+    margin-bottom: 0;
+  }
+
+  body .certifications .heading {
+    font-size: 3em;
+    margin-bottom: 0;
+  }
+
+  body .certifications .content {
+    flex-direction: column;
+  }
+
+  body .certifications .content>*:not(:last-child) {
+    margin-right: 0;
+  }
+
+  body .certifications .content .certification .certLogo {
+    height: 8em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  body .certifications .content .certification .certLogo img {
+    max-height: 6em;
+    max-width: 20em;
+    margin-bottom: 1.5em;
+  }
+
+  body .certifications .content .certification .content p {
+    font-size: 1.5em;
+  }
+
+  body .featured {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 6em 2em;
+  }
+
+  body .featured .heading {
+    margin-bottom: 1.5em;
+  }
+
+  body .featured .brandList {
+    flex-wrap: wrap;
+  }
+
+  body .featured .brandList .brand {
+    margin-bottom: 2em;
+  }
+
+  body .contactAndForm {
+    padding: 4em;
+    grid-template-columns: 1fr;
+  }
+
+  body .contactAndForm .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  body footer {
+    padding: 6em 2em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, auto), auto;
+    grid-template-areas: "top top""middleLeft middleRight""BottomLeft bottomRight";
+    grid-gap: 1em;
+  }
+
+  body footer .about {
+    grid-area: top;
+  }
+
+  body footer .about p:first-of-type {
+    font-size: 1.25em;
+  }
+
+  body footer .about p:nth-of-type(2) {
+    font-size: 1em;
+  }
+
+  body footer .links ul li {
+    font-size: 1.25em;
+  }
+
+  body footer .contact-us p {
+    font-size: 1.25em;
+  }
+
+  body .description-mediumEnterprise .bottom {
+    grid-template-columns: 1fr;
+  }
+
+  body .description-mediumEnterprise .bottom .left h3 {
+    font-size: 2em;
+  }
+
+  body .description-mediumEnterprise .bottom .left p {
+    font-size: 1.5em;
+  }
+
+  body .features-mediumEnterprise {
+    grid-template-columns: 1fr;
+    padding: 6em 2em;
+  }
+
+  body .features-mediumEnterprise .feature h3 {
+    font-size: 2em;
+  }
+
+  body .features-mediumEnterprise .feature p {
+    font-size: 1.5em;
+  }
+
+  body .description-largeEnterprise {
+    padding: 4em;
+    grid-template-columns: 1fr;
+  }
+
+  body .description-largeEnterprise>*:first-child {
+    border-right: none;
+    padding-right: 0;
+  }
+
+  body .erpIntegration {
+    padding: 4em;
+  }
+
+  body .erpIntegration .top {
+    width: 100%;
+  }
+
+  body .erpIntegration .brands {
+    flex-wrap: wrap;
+  }
+
+  body .erpIntegration .brands img {
+    max-width: 7em;
+    margin-bottom: 1.5em;
+  }
+
+  body .erpIntegration .brands>*:not(:last-child) {
+    margin-right: 1em;
+  }
+
+  body .procurementSimplified {
+    padding: 4em;
+  }
+
+  body .procurementSimplified .bottom {
+    grid-template-columns: 1fr;
+  }
+
+  body .procurementSimplified .bottom .left {
+    order: 2;
+  }
+
+  body .procurementSimplified .bottom .right {
+    order: 1;
+  }
+
+  body .procurementSimplified .bottom .right img {
+    width: 95%;
+  }
+
+  body .gallery .top {
+    grid-template-columns: 2fr 1.5fr;
+  }
+
+  body .gallery .bottom {
+    grid-template-columns: 1.5fr 2fr;
+  }
+
+  body .description-careers {
+    padding: 6em 2em;
+  }
+
+  body .description-careers h3,
+  body .description-careers h4 {
+    margin-bottom: .5em;
+    font-family: "Larsseit-Medium";
+  }
+
+  body .description-careers h3 {
+    font-size: 2.5em;
+  }
+
+  body .description-careers h4 {
+    font-size: 2em;
+  }
+
+  body .description-careers p {
+    font-size: 1.25em;
+  }
+
+  body .job-openings {
+    padding: 6em 2em;
+  }
+
+  body .job-openings .content .job p {
+    font-size: 1.25em;
+  }
+
+  body .job-openings .content .job>*>* {
+    display: flex;
+    flex-direction: column;
+  }
+
+  body .job-openings .content .job>*>*>*:last-child {
+    flex-grow: 1;
+    text-align: left;
+  }
+
+  body .faqs {
+    padding: 6em 2em;
+  }
+
+  body .faqs .faqs-section {
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+  }
+
+  body .faqs .faqs-section .heading {
+    text-align: left;
+  }
+
+  body .faqs .faqs-section .content .question-container .question p {
+    font-size: 1.5em;
+  }
+
+  body .faqs .faqs-section .content .question-container .answer p {
+    font-size: 1.25em;
+  }
+
+  body .stores {
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  body .stores .brands {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  body .stores .brands .customer {
+    width: calc(100% * (1/2) - 10px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  body .stores .brands .customer .image {
+    height: 1em;
+  }
+
+  body .stores .brands .customer .image img {
+    max-width: 6em;
+    max-height: 2em;
+  }
+
+  body .description-presskit {
+    padding: 30px;
+  }
+
+  body .description-presskit .descriptionGroup {
+    grid-template-columns: 1fr;
+    grid-gap: 10em;
+  }
+
+  body .assets {
+    padding: 30px;
+  }
+
+  body .assets .body>* {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+
+  body .assets .body>* .right {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+  }
+
+  body .assets .body>* .right .logo .image {
+    height: 8.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+
+  body .assets .body>* .right .logo .image.light {
+    background: #EEEEEE;
+  }
+
+  body .assets .body>* .right .logo .image.dark {
+    background: #3B862F;
+  }
+
+  body .assets .body>* .right .logo .image img {
+    height: 2.75em;
+  }
+
+  body .pricing-mobile {
+    background: #FBFCFF;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    padding: 20px;
+  }
+
+  body .pricing-mobile .switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+
+  body .pricing-mobile .switch>*:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  body .pricing-mobile .switch .radioGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  body .pricing-mobile .switch .radioGroup input[type="radio"] {
+    width: 20px;
+    height: 1em;
+    margin-right: 3px;
+  }
+
+  body .pricing-mobile .switch .radioGroup label {
+    margin-bottom: 0;
+    cursor: pointer;
+  }
+
+  body .pricing-mobile .plans {
+    margin-bottom: 100px;
+  }
+
+  body .pricing-mobile .plans .plan {
+    background-color: #FFFFFF;
+    border: 0.5px solid #A4B0C1;
+    border-radius: 5px;
+  }
+
+  body .pricing-mobile .plans .plan:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  body .pricing-mobile .plans .plan>* {
+    padding: 15px 30px;
+  }
+
+  body .pricing-mobile .plans .plan .head {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    background: #F0F6FE;
+    width: calc(100% + 1px);
+    margin-left: -1px;
+    margin-bottom: 20px;
+    border: 1px solid #DDE5EF;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 3px 5px 0 rgba(10, 31, 68, 0.1), 0 0 1px 0 rgba(10, 31, 68, 0.08);
+  }
+
+  body .pricing-mobile .plans .plan .head p {
+    margin-bottom: 0;
+  }
+
+  body .pricing-mobile .plans .plan .head .left h3 {
+    color: #0744DD;
+    font-family: "Larsseit-Medium";
+    margin-bottom: 0;
+  }
+
+  body .pricing-mobile .plans .plan .head .left p {
+    font-size: .9em;
+  }
+
+  body .pricing-mobile .plans .plan .head .right p {
+    font-family: "Larsseit-Medium";
+    font-size: 2.5em;
+  }
+
+  body .pricing-mobile .plans .plan .head .right p sup,
+  body .pricing-mobile .plans .plan .head .right p sub {
+    font-size: .3em;
+    vertical-align: baseline;
+    position: relative;
+    top: -1.25em;
+  }
+
+  body .pricing-mobile .plans .plan .head .right p sub {
+    top: 0;
+  }
+
+  body .pricing-mobile .plans .plan .body {
+    padding-bottom: 70px;
+  }
+
+  body .pricing-mobile .plans .plan .body ul {
+    padding: 0;
+    font-size: 1.1em;
+    margin-bottom: 50px;
+  }
+
+  body .pricing-mobile .plans .plan .body ul li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  body .pricing-mobile .plans .plan .body ul li span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+  }
+
+  body .pricing-mobile .plans .plan .body ul li.positive span {
+    background: url("../images/icons/check.svg") center no-repeat;
+    background-size: contain;
+  }
+
+  body .pricing-mobile .plans .plan .body ul li.negative span {
+    background: url("../images/icons/cancel.svg") center no-repeat;
+    background-size: contain;
+  }
+
+  body .pricing-mobile .plans .plan .body ul li.content {
+    align-items: flex-start;
+  }
+
+  body .pricing-mobile .plans .plan .body ul li.content span {
+    background-color: transparent;
+    font-weight: 600;
+  }
+
+  body .pricing-mobile .plans .plan .body ul li p {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+
+  body .pricing-mobile .plans .plan .body a.btn-fill-md {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: .8em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+nav .menu-wrapper {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav .menu-wrapper .menu {
+  cursor: pointer;
+}
+
+nav .menu-wrapper .menu span {
+  display: block;
+  width: 2.5em;
+  height: .25em;
+  background: #0744DD;
+}
+
+nav .menu-wrapper .menu span:not(:last-child) {
+  margin-bottom: .5em;
+}
+
+/*# sourceMappingURL=styles.css.map */

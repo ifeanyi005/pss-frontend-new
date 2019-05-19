@@ -1,0 +1,42 @@
+#status-div {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.floating-label {
+  margin-top: 30px;
+}
+
+label.error {
+  display: block;
+  position: absolute;
+  top: 50px !important;
+  left: 3px !important;
+  font-size: 12px !important;
+  z-index: 1;
+  color: red !important;
+  font-weight: 600;
+}
+
+#message-area label.error {
+  display: block;
+  position: absolute;
+  top: 190px !important;
+  left: 3px !important;
+  font-size: 12px !important;
+  z-index: 1;
+  color: red !important;
+  font-weight: 600;
+}
+
+input.error, select.error {
+  display: block;
+  border: 1px solid red;
+}
+
+#submit {
+  margin-top: 50px;
+}
