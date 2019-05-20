@@ -989,6 +989,16 @@ ul.bordered-tabs li a.nav-link.active {
     margin-bottom: 7.5em;
 }
 
+.business-more {
+    background-image: url(../images/got-questions-bg.svg);
+    height: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 6.5em 0px;
+    margin-bottom: 7.5em;
+}
+
 .contact-us-bg {
     background-image: url(../images/contact-support-hero-illustration.svg);
     height: 280px;
@@ -2515,7 +2525,10 @@ body .why-pss {
 .white-bg {
     background: white !important;
 }
-
+body section.business .content {
+    padding-top: 0em;
+    text-align: left;
+}
 body .why-pss .content {
     padding-top: 6.375em;
     text-align: center;
